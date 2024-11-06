@@ -1,0 +1,10 @@
+{
+	#include <stdio.h>
+
+int main() {
+    // Ausdruck und Ausgabe
+    printf("%d\n", (8 / 5) / 2);
+    
+    return 0;
+}
+}
