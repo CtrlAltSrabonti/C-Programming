@@ -1,37 +1,34 @@
-### Aufgabe 1
-Problem zerlegen (wichtig fürs Struktogramm)
+# Aufgabe 1
+## Problem zerlegen (wichtig fürs Struktogramm)
+~ Das Programm besteht aus klaren Teilschritten:
 
-Das Programm besteht aus klaren Teilschritten:
+1. Wiederholung des gesamten Programms
 
-Wiederholung des gesamten Programms
+2. Benutzer darf mehrere Zahlenfolgen eingeben
 
-Benutzer darf mehrere Zahlenfolgen eingeben
+3. Eingabe einer Zahlenfolge
 
-Eingabe einer Zahlenfolge
+4. Maximal 30 Zahlen
 
-Maximal 30 Zahlen
+5. Speicherung in einem Feld (Array)
 
-Speicherung in einem Feld (Array)
+6. Anzahl der Zahlen merken
 
-Anzahl der Zahlen merken
+7. Bestimmung von kleinster Zahl
 
-Bestimmung von
+8. größter Zahl
 
-kleinster Zahl
+9. Ausgabe
 
-größter Zahl
+a. Zahlen in umgekehrter Reihenfolge
 
-Ausgabe
+b. 5 Zahlen pro Zeile
 
-Zahlen in umgekehrter Reihenfolge
-
-5 Zahlen pro Zeile
-
-Abfrage, ob erneut eine Zahlenfolge eingegeben werden soll
+10. Abfrage, ob erneut eine Zahlenfolge eingegeben werden soll
 
 👉 Diese Schritte bestimmen die Struktur des Struktogramms.
 
-2️⃣ Grundform des Struktogramms
+### Grundform des Struktogramms
 
 Ein Struktogramm besteht aus:
 
