@@ -1,6 +1,6 @@
 # Aufgabe 1
 ## Problem zerlegen (wichtig fürs Struktogramm)
-~ Das Programm besteht aus klaren Teilschritten:
+Das Programm besteht aus klaren Teilschritten:
 
 1. Wiederholung des gesamten Programms
 
@@ -20,9 +20,9 @@
 
 9. Ausgabe
 
-a. Zahlen in umgekehrter Reihenfolge
+- Zahlen in umgekehrter Reihenfolge
 
-b. 5 Zahlen pro Zeile
+- 5 Zahlen pro Zeile
 
 10. Abfrage, ob erneut eine Zahlenfolge eingegeben werden soll
 
@@ -32,16 +32,16 @@ b. 5 Zahlen pro Zeile
 
 Ein Struktogramm besteht aus:
 
-Sequenzen (einfach untereinander)
+1. Sequenzen (einfach untereinander)
 
-Schleifen (WHILE / FOR)
+2. Schleifen (WHILE / FOR)
 
-Verzweigungen (IF)
+3. Verzweigungen (IF)
 
-Wir brauchen hier:
+4. Wir brauchen hier:
 
-äußere WHILE-Schleife (mehrere Durchläufe)
+- äußere WHILE-Schleife (mehrere Durchläufe)
 
-FOR-Schleifen für Eingabe und Ausgabe
+- FOR-Schleifen für Eingabe und Ausgabe
 
-einfache Anweisungen
+- einfache Anweisungen
