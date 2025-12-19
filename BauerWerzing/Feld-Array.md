@@ -32,13 +32,13 @@ Das Programm besteht aus klaren Teilschritten:
 
 Ein Struktogramm besteht aus:
 
-1. Sequenzen (einfach untereinander)
+- Sequenzen (einfach untereinander)
+  
+- Schleifen (WHILE / FOR)
+  
+- Verzweigungen (IF)
 
-2. Schleifen (WHILE / FOR)
-
-3. Verzweigungen (IF)
-
-4. Wir brauchen hier:
+Wir brauchen hier:
 
 - äußere WHILE-Schleife (mehrere Durchläufe)
 
