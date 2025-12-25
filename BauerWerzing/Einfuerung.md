@@ -29,7 +29,6 @@ int main(void)
 }
 
 ```
--
 - stdio.h
 Provides input/output functions like printf() and scanf().
 
