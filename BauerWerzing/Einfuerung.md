@@ -1,6 +1,5 @@
 ```
-/* 1-3-1-zinsen.c
-   Programm zur Berechnung der Zinsen auf eingesetztes Kapital */
+
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -30,3 +29,4 @@ int main(void)
 }
 
 ```
+
