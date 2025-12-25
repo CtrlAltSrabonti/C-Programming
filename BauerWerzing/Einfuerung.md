@@ -29,4 +29,10 @@ int main(void)
 }
 
 ```
+-
+- stdio.h
+Provides input/output functions like printf() and scanf().
+
+- stdlib.h
+Provides utility functions, here used for system("PAUSE").
 
