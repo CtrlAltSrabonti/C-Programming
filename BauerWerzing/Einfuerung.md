@@ -1,4 +1,4 @@
-'''
+```
 /* 1-3-1-zinsen.c
    Programm zur Berechnung der Zinsen auf eingesetztes Kapital */
 
@@ -29,4 +29,4 @@ int main(void)
  system("PAUSE");
 }
 
-'''
+```
