@@ -76,3 +76,12 @@ scanf("%d",&anz_tage);
 - Asks for the number of days.
 
 - Stored as an integer.
+  
+```
+printf("Zinssatz in Prozent? ");
+scanf("%f",&zinssatz);
+
+```
+- Asks for the interest rate in percent.
+
+- Stored as a floating-point number.
