@@ -86,8 +86,11 @@ scanf("%f",&zinssatz);
 
 - Stored as a floating-point number.
   
-- ## Interest Calculation
+## Interest Calculation
   ```
   zinsen = kapital*zinssatz*anz_tage/(100*360);
   ```
-
+## Output
+```
+printf("\nAnfallende Zinsen: %f Euro\n\n",zinsen);
+```
