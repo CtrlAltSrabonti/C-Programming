@@ -40,3 +40,5 @@ Provides utility functions, here used for system("PAUSE").
 - The program starts execution here.
 
 - Returns an integer to the operating system (though no explicit return is used)
+  
+## Variable Declarations
