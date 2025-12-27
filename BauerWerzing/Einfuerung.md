@@ -67,3 +67,9 @@ scanf("%f",&kapital);
 - Prompts the user for the capital amount.
 
 - scanf reads a floating-point number and stores it in kapital.
+
+```
+printf("Anzahl der Tage? ");
+scanf("%d",&anz_tage);
+
+```
