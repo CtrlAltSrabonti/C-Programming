@@ -73,3 +73,6 @@ printf("Anzahl der Tage? ");
 scanf("%d",&anz_tage);
 
 ```
+- Asks for the number of days.
+
+- Stored as an integer.
