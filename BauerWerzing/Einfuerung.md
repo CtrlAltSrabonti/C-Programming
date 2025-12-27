@@ -42,3 +42,10 @@ Provides utility functions, here used for system("PAUSE").
 - Returns an integer to the operating system (though no explicit return is used)
   
 ## Variable Declarations
+- kapital – the invested capital (in euros)
+
+- zinssatz – interest rate (percentage per year)
+
+- zinsen – calculated interest amount
+
+- anz_tage – number of days the capital is invested
