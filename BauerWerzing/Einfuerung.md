@@ -49,3 +49,4 @@ Provides utility functions, here used for system("PAUSE").
 - zinsen – calculated interest amount
 
 - anz_tage – number of days the capital is invested
+- float is used for monetary and percentage values to allow decimals.
