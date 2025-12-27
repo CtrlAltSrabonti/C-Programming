@@ -52,6 +52,12 @@ Provides utility functions, here used for system("PAUSE").
 - float is used for monetary and percentage values to allow decimals.
 
 ## User Input
+
+```
+printf("Zu verzinsendes Kapital in Euro? ");
+scanf("%f",&kapital);
+
+```
 - Prompts the user for the capital amount.
 
 - scanf reads a floating-point number and stores it in kapital.
