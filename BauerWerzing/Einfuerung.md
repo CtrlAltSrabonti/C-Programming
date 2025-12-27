@@ -94,3 +94,6 @@ scanf("%f",&zinssatz);
 ```
 printf("\nAnfallende Zinsen: %f Euro\n\n",zinsen);
 ```
+- Prints the calculated interest
+
+- %f is used for floating-point numbers
