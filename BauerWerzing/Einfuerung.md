@@ -85,3 +85,9 @@ scanf("%f",&zinssatz);
 - Asks for the interest rate in percent.
 
 - Stored as a floating-point number.
+  
+- ## Interest Calculation
+  ```
+  zinsen = kapital*zinssatz*anz_tage/(100*360);
+  ```
+
