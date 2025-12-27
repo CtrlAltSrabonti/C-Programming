@@ -29,9 +29,14 @@ int main(void)
 }
 
 ```
+## Header files
 - stdio.h
 Provides input/output functions like printf() and scanf().
 
 - stdlib.h
 Provides utility functions, here used for system("PAUSE").
 
+## main function
+- The program starts execution here.
+
+- Returns an integer to the operating system (though no explicit return is used)
