@@ -42,6 +42,12 @@ Provides utility functions, here used for system("PAUSE").
 - Returns an integer to the operating system (though no explicit return is used)
   
 ## Variable Declarations
+
+```
+float kapital, zinssatz, zinsen;
+int anz_tage;
+
+```
 - kapital – the invested capital (in euros)
 
 - zinssatz – interest rate (percentage per year)
