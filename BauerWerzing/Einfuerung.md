@@ -190,5 +190,37 @@ printf("\nAnfallende Zinsen: %f Euro\n",zinsen);
 - Prints the calculated interest
 
 - %f is used for floating-point numbers
+  
+# 1-4-1-printf.c Beispielprogramm zum Test der Ausgabe mit printf
+```
+#include <stdlib.h>
+#include <stdio.h>
 
+int main(void)
+
+{
+    int i=1234;
+    char zk[]="Hallo !";
+    float x=12.12345689;
+
+    printf(" Beispiele fuer printf : \n");
+    printf("%s i ist %d und x %f\n",zk,i,x);
+
+    // string right-aligned in 20 charcters
+    // integer right aligned in 10 charcters
+    // float width 10,2 decimal places
+    printf("%20s i ist %10d und x %10.2f\n",zk,i,x);
+    // 10 integer number pad with leading zeros AND %010.2f% zero padded float, after comma 2 position, total 10 characters
+    printf("%20s i ist %010d und x %010.2f\n",zk,i,x);
+    // Left alignment and field width 20 characters AND %10.2f total 10 character field, after comma 2 position
+    printf("%-20s i ist %10d und x %10.2f\n",zk,i,x);
+    // Integer in different number systems
+    printf("\n i als int- okt- und hex-zahl: ");
+    printf("\n%10d %10o und x %10x\n",i, i, i);
+    printf("\nText abgeschnitten: %.4s\n\n",zk);
+    system("Pause");
+
+}
+
+```
 
