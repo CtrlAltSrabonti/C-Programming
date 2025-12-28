@@ -99,4 +99,4 @@ printf("\nAnfallende Zinsen: %f Euro\n\n",zinsen);
 - %f is used for floating-point numbers
 
 ## Program Pause
-
+# 1-3-2-zinsen.c Programm zur Berechnung der Zinsen auf eingesetztes Kapital unter Verwendung einer selbst geschriebenen Funktion
