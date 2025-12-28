@@ -171,7 +171,10 @@ zinsen = zinsberechnung(kapital,zinssatz,anz_tage);
 
 This is the key line where the calculation happens.
 
-//  C does not pass variable names.
+- C does not pass variable names.
 
 - It passes numbers.
+  ```
+  zinsberechnung(kapital, zinssatz, anz_tage);
+  ```
 ## Output
