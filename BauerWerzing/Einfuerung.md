@@ -155,3 +155,6 @@ This is where the program starts execution.
 printf("Zu verzinsendes Kapital in Euro? ");
 scanf("%f",&kapital);
 ```
+- Asks for capital
+
+- Reads a float
