@@ -148,3 +148,5 @@ float zinsberechnung(float k, float zs, int t)
 ```
 
 ## The main() function
+This is where the program starts execution.
+## Variable declarations
