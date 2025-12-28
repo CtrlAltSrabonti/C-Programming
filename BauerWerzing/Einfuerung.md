@@ -181,4 +181,5 @@ This is the key line where the calculation happens.
   ```
   zinsberechnung(1000, 5.0, 90);
   ```
+  The function never knows the name kapital existed.
 ## Output
