@@ -137,3 +137,14 @@ int main(void)
 
 ```
 ## The interest calculation function
+
+```
+float zinsberechnung(float k, float zs, int t)
+{
+ float res;
+ res = k*zs*t/(100*360);
+ return res;
+}
+```
+
+## The main() function
