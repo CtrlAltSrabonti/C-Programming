@@ -160,3 +160,13 @@ scanf("%f",&kapital);
 - The & is important: it tells scanf() where to store the value.
   
 ## Calling the function
+```
+zinsen = zinsberechnung(kapital,zinssatz,anz_tage);
+```
+- Passes the user input values to zinsberechnung
+
+- Receives the calculated interest
+
+- Stores it in zinsen
+
+This is the key line where the calculation happens.
