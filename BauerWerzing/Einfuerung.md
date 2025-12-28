@@ -156,5 +156,7 @@ printf("Zu verzinsendes Kapital in Euro? ");
 scanf("%f",&kapital);
 ```
 - Asks for capital
-
 - Reads a float
+- The & is important: it tells scanf() where to store the value.
+  
+## Calling the function
