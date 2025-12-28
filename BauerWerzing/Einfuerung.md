@@ -150,3 +150,8 @@ float zinsberechnung(float k, float zs, int t)
 ## The main() function
 This is where the program starts execution.
 ## Variable declarations
+## User input
+```
+printf("Zu verzinsendes Kapital in Euro? ");
+scanf("%f",&kapital);
+```
