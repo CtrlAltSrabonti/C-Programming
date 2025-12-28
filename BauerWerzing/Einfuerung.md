@@ -217,10 +217,12 @@ int main(void)
     // Integer in different number systems
     printf("\n i als int- okt- und hex-zahl: ");
     printf("\n%10d %10o und x %10x\n",i, i, i);
+    // Print only first 4 characters of the string
     printf("\nText abgeschnitten: %.4s\n\n",zk);
     system("Pause");
 
 }
+
 
 ```
 
