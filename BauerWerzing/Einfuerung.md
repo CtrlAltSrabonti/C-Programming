@@ -184,3 +184,11 @@ This is the key line where the calculation happens.
 - The function never knows the name kapital existed.
 -  When a function is called, C takes the value stored in kapital and puts that value into a new local variable k.
 ## Output
+```
+printf("\nAnfallende Zinsen: %f Euro\n",zinsen);
+```
+- Prints the calculated interest
+
+- %f is used for floating-point numbers
+
+
