@@ -136,4 +136,4 @@ int main(void)
 }
 
 ```
-
+## The interest calculation function
