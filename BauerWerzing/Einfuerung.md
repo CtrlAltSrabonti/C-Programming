@@ -181,5 +181,6 @@ This is the key line where the calculation happens.
   ```
   zinsberechnung(1000, 5.0, 90);
   ```
-  The function never knows the name kapital existed.
+- The function never knows the name kapital existed.
+-  When a function is called, C takes the value stored in kapital and puts that value into a new local variable k.
 ## Output
