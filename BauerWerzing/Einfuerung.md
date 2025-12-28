@@ -177,4 +177,8 @@ This is the key line where the calculation happens.
   ```
   zinsberechnung(kapital, zinssatz, anz_tage);
   ```
+  Is treated the same as:
+  ```
+  zinsberechnung(1000, 5.0, 90);
+  ```
 ## Output
