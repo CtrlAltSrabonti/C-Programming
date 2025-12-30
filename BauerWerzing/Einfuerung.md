@@ -268,5 +268,6 @@ int main(void)
 - %s lies ein Wort (String) bis zum ersten Leerzeichen
 - Die 3 in %3s lies hoechstens 3 Zeichen
 - scanf fuegt automatisch ein '\0' String-Ende  hinzu
-
+- scanf("%s",s) Gefaehrlich bei langer Eingabe
+- scanf("%3s",s) SICHER
 
