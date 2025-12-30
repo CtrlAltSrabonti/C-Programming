@@ -225,4 +225,43 @@ int main(void)
 
 
 ```
+# 1-4-1-scanf.c Beispielprogramm zum Test des Einlesens mit scanf
+```
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int r, i;
+    float x;
+    char s[20];
+
+    printf("Gib einen Wert ein:\n");
+
+    /* Testen mit "123" sowie "2a"  sowie "1.99" sowie "a123"*/
+    /* erstes %d = r, zweites %d =i */
+    /*r=scanf("%d",&i); printf("%d i=%d\n",r,i);*/
+
+    /* Testen mit "-11"*/
+    /*r=scanf("%o",&i); printf("%d i=%d\n",r,i);*/
+
+    /* Testen mit "-A1" sowie "-a1"*/
+    /*r=scanf("%x",&i); printf("%d i=%d\n",r,i);*/
+
+    /* Testen mit "-123.4"*/
+    /*Antwort 10 Zeichen*/
+    /*r=scanf("%f",&x); printf("%d x=%10.5f\n",r,x);*/
+
+
+    /* Testen mit "abcdef" und "abc def"*/
+    /*Note: string do not need "&" address to store*/
+    /*r=scanf("%s",s); printf("%d s=%s\n",r,s);*/
+
+
+    /* Testen mit "abcdef" und "abc def"*/
+    r=scanf("%3s",s); printf("%d s=%s\n",r,s);
+
+}
+
+```
 
