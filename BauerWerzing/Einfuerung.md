@@ -264,4 +264,9 @@ int main(void)
 }
 
 ```
+## scanf("%3s",s) Was passiert?
+- %s lies ein Wort (String) bis zum ersten Leerzeichen
+- Die 3 in %3s lies hoechstens 3 Zeichen
+- scanf fuegt automatiscg ein '\0' String-Ende  hinzu
+
 
