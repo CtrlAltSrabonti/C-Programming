@@ -147,6 +147,8 @@ float zinsberechnung(float k, float zs, int t)
 }
 ```
 - Note: return res; immediately stops the execution of the function, specifies that res is the function’s result, and passes its value back to the calling statement (the function call expression), where it replaces the function name and can be assigned or used further in main().
+<img width="1036" height="195" alt="image" src="https://github.com/user-attachments/assets/0588add7-6ea2-4598-8f83-98043d53c497" />
+
 ## The main() function
 This is where the program starts execution.
 ## Variable declarations
