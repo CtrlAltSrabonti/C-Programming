@@ -282,5 +282,6 @@ r=scanf("%3s",s); printf("%d s=%s\n",r,s);
 - %d lies eine Ganzzahl -> speichere in i
 - z -> erwarte buchstaeblich das Zeichen z
 - %f lies eine fliesskommazahl -> speichere in x
+- "123 1.23" nach %d kommt ein Leerzeichen, aber erwartet wird z.
 
 
