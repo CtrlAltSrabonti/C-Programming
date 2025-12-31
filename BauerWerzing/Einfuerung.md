@@ -267,7 +267,9 @@ int main(void)
 }
 
 ```
-## scanf("%3s",s) Was passiert?
+```
+r=scanf("%3s",s); printf("%d s=%s\n",r,s);
+```
 - %s lies ein Wort (String) bis zum ersten Leerzeichen
 - Die 3 in %3s lies hoechstens 3 Zeichen
 - scanf fuegt automatisch ein '\0' String-Ende  hinzu
@@ -277,5 +279,8 @@ int main(void)
  r=scanf("%dz%f",&i,&x); printf("%d i=%d x=%f\n",r,i,x);
 
 ```
+- %d lies eine Ganzzahl -> speichere in i
+- z -> erwarte buchstaeblich das Zeichen z
+- %f lies eine fliesskommazahl -> speichere in x
 
 
