@@ -261,6 +261,9 @@ int main(void)
     /* Testen mit "abcdef" und "abc def"*/
     r=scanf("%3s",s); printf("%d s=%s\n",r,s);
 
+    /*Testen mit "123z1.23" sowie "123 1.23"*/
+    r=scanf("%dz%f",&i,&x); printf("%d i=%d x=%f\n",r,i,x);
+
 }
 
 ```
@@ -270,4 +273,9 @@ int main(void)
 - scanf fuegt automatisch ein '\0' String-Ende  hinzu
 - scanf("%s",s) Gefaehrlich bei langer Eingabe
 - scanf("%3s",s) SICHER
+```
+ r=scanf("%dz%f",&i,&x); printf("%d i=%d x=%f\n",r,i,x);
+
+```
+
 
