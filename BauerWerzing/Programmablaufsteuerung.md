@@ -34,3 +34,12 @@ while (condition) {
     // loop body
 }
 ```
+- Condition is checked first
+
+- If false → loop body is skipped
+
+- If true → loop body runs
+
+- Then condition is checked again
+
+👉 The loop body may run zero times.
