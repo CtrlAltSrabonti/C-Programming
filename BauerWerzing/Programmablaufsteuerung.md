@@ -43,3 +43,16 @@ while (condition) {
 - Then condition is checked again
 
 👉 The loop body may run zero times.
+```
+int zahl;
+
+printf("Enter positive number: ");
+scanf("%d", &zahl);
+
+while (zahl <= 0) {
+    printf("Invalid input!\n");
+    printf("Enter positive number: ");
+    scanf("%d", &zahl);
+}
+```
+
