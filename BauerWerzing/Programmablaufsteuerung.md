@@ -29,3 +29,8 @@ do {
 } while (weiter == 'j' || weiter == 'J');
 
 ```
+```
+while (condition) {
+    // loop body
+}
+```
