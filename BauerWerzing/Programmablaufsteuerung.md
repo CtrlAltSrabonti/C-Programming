@@ -80,3 +80,15 @@ for (initialization; condition; change) {
 
 Jede for-Schleife könnte auch als while-Schleife realisiert werden. Der Vorteil der for-Schleife liegt darin, dass alle Angaben zum Ablauf der Schleife kompakt und übersichtlich in den runden Klammern nach for stehen. 
 Als einfaches Beispiel soll die Berechnung der Summe der Quadrate der ersten N natürlichen Zahlen sowohl als while-Schleife als auch als for-Schleife realisiert werden: 
+```
+int N, k, summe; 
+printf("N=? "); scanf("%d",&N); 
+k = 1; 
+summe = 0; 
+while (k<=N) 
+{ 
+  summe = summe + k*k; 
+  k = k + 1; 
+} 
+printf("\nSumme = %d\n\n",summe); 
+```
