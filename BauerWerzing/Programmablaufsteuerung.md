@@ -100,3 +100,18 @@ printf("N=? "); scanf("%d",&N); for (k=1, summe=0; k<=N; k++)
 } 
 printf("\nSumme = %d\n\n",summe); 
 ```
+## controlled exit from loops
+### continue
+
+- Stops current iteration
+
+- Goes to next loop cycle
+  ```
+  for (int i = 1; i <= 5; i++) {
+    if (i == 3)
+        continue;
+    printf("%d ", i);
+}
+
+  ```
+Output: 1245
