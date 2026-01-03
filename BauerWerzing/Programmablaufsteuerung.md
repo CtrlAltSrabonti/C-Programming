@@ -29,6 +29,7 @@ do {
 } while (weiter == 'j' || weiter == 'J');
 
 ```
+# While loop
 ```
 while (condition) {
     // loop body
@@ -55,4 +56,26 @@ while (zahl <= 0) {
     scanf("%d", &zahl);
 }
 ```
+# for loop
+```
+for (initialization; condition; change) {
+    // loop body
+}
+```
+- How a for loop runs
+
+- Initialization runs once
+
+- Condition is checked
+
+- If false → stop
+
+- If true → run loop body
+
+- Change happens
+
+- Go back to condition
+
+👉 Just like while, the condition is checked before the loop body
+
 
