@@ -104,7 +104,7 @@ printf("\nSumme = %d\n\n",summe);
 ### continue
 
 - Stops current iteration
-
+- continue → skip iteration
 - Goes to next loop cycle
 ```
   for (int i = 1; i <= 5; i++) {
@@ -116,6 +116,7 @@ printf("\nSumme = %d\n\n",summe);
 Output: 1245
 ### break
 - Stops the loop completely
+- break → exit loop
 ```
 for (int i = 1; i <= 5; i++) {
     if (i == 3)
