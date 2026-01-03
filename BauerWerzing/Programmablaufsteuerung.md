@@ -92,3 +92,11 @@ while (k<=N)
 } 
 printf("\nSumme = %d\n\n",summe); 
 ```
+```
+int N, k, summe; 
+printf("N=? "); scanf("%d",&N); for (k=1, summe=0; k<=N; k++) 
+{ 
+  summe = summe + k*k; 
+} 
+printf("\nSumme = %d\n\n",summe); 
+```
