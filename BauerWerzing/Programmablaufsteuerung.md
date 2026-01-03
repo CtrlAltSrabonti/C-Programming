@@ -112,6 +112,6 @@ printf("\nSumme = %d\n\n",summe);
         continue;
     printf("%d ", i);
 }
-
-  ```
 Output: 1245
+  ```
+
