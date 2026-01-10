@@ -104,3 +104,8 @@ Der Benutzer gibt ein:
 123⏎
 
 ```
+Puffer danach:
+```
+'1' '2' '3' '\n'
+
+```
