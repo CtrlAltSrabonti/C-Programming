@@ -94,3 +94,8 @@ Dieses Zeichen landet im Eingabepuffer
 getchar() liest dieses Zeichen
 
 Programm läuft weiter → Ende
+
+#### Fall 2: Eingabepuffer ist NICHT leer (typischer Fehlerfall)
+```
+scanf("%d", &x);
+```
