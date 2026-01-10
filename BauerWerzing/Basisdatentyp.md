@@ -77,7 +77,7 @@ Zustand vor getchar():
 Eingabepuffer: leer
 
 ```
-Was passiert?
+##### Was passiert?
 
 getchar() wird aufgerufen
 
