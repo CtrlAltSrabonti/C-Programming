@@ -72,3 +72,8 @@ Alles, was der Benutzer tippt, wird zuerst im Eingabepuffer gesammelt
 
 Erst wenn Return (Enter) gedrückt wird, wird die ganze Zeile an das Programm übergeben
 #### Fall 1: Eingabepuffer ist LEER
+Zustand vor getchar():
+```
+Eingabepuffer: leer
+
+```
