@@ -40,3 +40,7 @@ Sehr gut geeignet, um den Puffer gezielt zu leeren
 Da jede Eingabe mit Return ('\n') endet, kann man:
 
 So lange Zeichen lesen, bis das Newline-Zeichen gefunden wird
+```
+while (getchar() != '\n');
+
+```
