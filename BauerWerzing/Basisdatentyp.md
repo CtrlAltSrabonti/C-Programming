@@ -15,3 +15,5 @@ Alles, inklusive des Return-Zeichens, landet im Eingabepuffer
 Eingabe:  A⏎
 Puffer:   'A'  '\n'
 ```
+Wenn dein Programm nur das Zeichen 'A' liest, bleibt '\n' im Puffer zurück.
+Das führt oft zu Problemen bei der nächsten Eingabe.
