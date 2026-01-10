@@ -64,3 +64,10 @@ Damit man diesen Code nicht jedes Mal neu schreiben muss, definiert man ein Makr
 scanf("%c", &c);
 INCLR;
 ```
+### Was ist der Eingabepuffer?
+
+Die Tastatur liefert nicht sofort Zeichen an dein Programm
+
+Alles, was der Benutzer tippt, wird zuerst im Eingabepuffer gesammelt
+
+Erst wenn Return (Enter) gedrückt wird, wird die ganze Zeile an das Programm übergeben
