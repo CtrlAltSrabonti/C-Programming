@@ -79,23 +79,28 @@ Eingabepuffer: leer
 ```
 ##### Was passiert?
 
-getchar() wird aufgerufen
+- getchar() wird aufgerufen
 
-Es gibt kein Zeichen im Puffer
+- Es gibt kein Zeichen im Puffer
 
 👉 Das Programm bleibt stehen und wartet
 
-Benutzer drückt Return
+- Benutzer drückt Return
 
-Return erzeugt das Zeichen '\n'
+- Return erzeugt das Zeichen '\n'
 
-Dieses Zeichen landet im Eingabepuffer
+- Dieses Zeichen landet im Eingabepuffer
 
-getchar() liest dieses Zeichen
+- getchar() liest dieses Zeichen
 
-Programm läuft weiter → Ende
+- Programm läuft weiter → Ende
 
 #### Fall 2: Eingabepuffer ist NICHT leer (typischer Fehlerfall)
 ```
 scanf("%d", &x);
+```
+Der Benutzer gibt ein:
+```
+123⏎
+
 ```
