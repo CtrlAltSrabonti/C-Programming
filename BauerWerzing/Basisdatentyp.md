@@ -17,3 +17,20 @@ Puffer:   'A'  '\n'
 ```
 Wenn dein Programm nur das Zeichen 'A' liest, bleibt '\n' im Puffer zurück.
 Das führt oft zu Problemen bei der nächsten Eingabe.
+
+## 2. scanf("%c") vs. getchar()
+scanf("%c", &c)
+
+Liest genau ein Zeichen
+
+Ignoriert den restlichen Puffer nicht
+
+Problem: Das '\n' bleibt oft übrig
+
+getchar()
+
+Liest immer genau ein Zeichen
+
+Gibt den ASCII-Code als int zurück
+
+Sehr gut geeignet, um den Puffer gezielt zu leeren
