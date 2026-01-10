@@ -59,3 +59,4 @@ Damit man diesen Code nicht jedes Mal neu schreiben muss, definiert man ein Makr
 ```
 #define INCLR while (getchar()!='\12');
 ```
+\12 ist die oktale Schreibweise für ASCII 10
