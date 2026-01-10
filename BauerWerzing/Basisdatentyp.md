@@ -112,3 +112,9 @@ scanf("%d", &x); liest:
 ```
 '1' '2' '3'
 ```
+👉 '\n' bleibt im Puffer!
+Jetzt kommt:
+```
+getchar();
+
+```
