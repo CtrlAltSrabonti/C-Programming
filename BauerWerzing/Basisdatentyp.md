@@ -47,3 +47,10 @@ while (getchar() != '\n');
 ```
 for (; getchar() != (char)10; );
 ```
+Erklärung:
+
+getchar() liest Zeichen für Zeichen
+
+Die Schleife läuft, bis ASCII 10 ('\n') gefunden wird
+
+Danach ist der Eingabepuffer leer
