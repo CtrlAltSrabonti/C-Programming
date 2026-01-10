@@ -107,5 +107,5 @@ Der Benutzer gibt ein:
 Puffer danach:
 ```
 '1' '2' '3' '\n'
-
 ```
+scanf("%d", &x); liest:
