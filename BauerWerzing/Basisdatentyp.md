@@ -44,3 +44,6 @@ So lange Zeichen lesen, bis das Newline-Zeichen gefunden wird
 while (getchar() != '\n');
 
 ```
+```
+for (; getchar() != (char)10; );
+```
