@@ -118,3 +118,12 @@ Jetzt kommt:
 getchar();
 
 ```
+##### Was passiert jetzt?
+
+- getchar() liest sofort das '\n'
+
+- Es wird nicht gewartet
+
+- Programm endet sofort
+
+- Benutzer sieht das Programm „blitzartig“ verschwinden
