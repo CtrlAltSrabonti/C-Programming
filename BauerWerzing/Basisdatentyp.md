@@ -34,3 +34,9 @@ Liest immer genau ein Zeichen
 Gibt den ASCII-Code als int zurück
 
 Sehr gut geeignet, um den Puffer gezielt zu leeren
+
+## 3. Die Idee: Eingabepuffer leeren
+
+Da jede Eingabe mit Return ('\n') endet, kann man:
+
+So lange Zeichen lesen, bis das Newline-Zeichen gefunden wird
