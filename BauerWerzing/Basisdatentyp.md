@@ -77,3 +77,20 @@ Zustand vor getchar():
 Eingabepuffer: leer
 
 ```
+Was passiert?
+
+getchar() wird aufgerufen
+
+Es gibt kein Zeichen im Puffer
+
+👉 Das Programm bleibt stehen und wartet
+
+Benutzer drückt Return
+
+Return erzeugt das Zeichen '\n'
+
+Dieses Zeichen landet im Eingabepuffer
+
+getchar() liest dieses Zeichen
+
+Programm läuft weiter → Ende
