@@ -54,3 +54,5 @@ getchar() liest Zeichen für Zeichen
 Die Schleife läuft, bis ASCII 10 ('\n') gefunden wird
 
 Danach ist der Eingabepuffer leer
+## 4. Das Makro INCLR
+Damit man diesen Code nicht jedes Mal neu schreiben muss, definiert man ein Makro:
