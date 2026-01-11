@@ -127,3 +127,15 @@ getchar();
 - Programm endet sofort
 
 - Benutzer sieht das Programm „blitzartig“ verschwinden
+  
+## What enum does (in simple terms)
+
+enum lets you:
+
+Give names to integer values
+
+Make code more readable
+
+Restrict variables to a small, meaningful set of values
+
+Instead of using “magic numbers” like 0, 1, 2, you use names like RED, GREEN, BLUE.
