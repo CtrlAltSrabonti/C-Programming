@@ -139,3 +139,16 @@ Make code more readable
 Restrict variables to a small, meaningful set of values
 
 Instead of using “magic numbers” like 0, 1, 2, you use names like RED, GREEN, BLUE.
+```
+enum color { RED, GREEN, BLUE };
+```
+Using an enum variable
+```
+enum color c;
+
+c = RED;
+
+```
+- c can logically hold only RED, GREEN, or BLUE
+
+- Internally, c is stored as an int
