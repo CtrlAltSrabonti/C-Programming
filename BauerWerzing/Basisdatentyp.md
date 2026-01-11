@@ -160,3 +160,161 @@ color c = GREEN;
 
 ```
 Now you don’t need to write enum color every time.
+
+### enum and typedef
+typedef enum { rot, blau, grau, schwarz } farbe;
+
+
+This defines an enumeration with four symbolic constants:
+```
+rot = 0
+
+blau = 1
+
+grau = 2
+
+schwarz = 3
+```
+typedef creates a new type name farbe, so you can write:
+
+farbe f, g, h;
+
+instead of enum farbe.
+
+Equivalent (commented-out) version:
+```
+enum farbe { rot, blau, grau, schwarz };
+enum farbe f, g, h;
+```
+### 2. Memory size of an enum
+```
+printf("%u", sizeof(farbe));
+```
+
+> Output:
+
+4
+
+On this system, an enum occupies 4 bytes, because it is stored as an int.
+
+This is implementation-dependent, but very common.
+
+### 3. Printing enum constants
+printf("\n%hu %hu %hu %hu", rot, blau, grau, schwarz);
+
+> Output:
+
+0 1 2 3
+
+
+- Enum constants are just integers starting from 0 by default.
+
+- %hu works here because the values are small integers.
+
+### 4. Assigning and printing enum variables
+```
+f = grau;
+g = blau;
+h = g;
+printf("\n%hu %hu %hu", f, g, h);
+```
+
+> Output:
+
+2 1 1
+
+>
+f = grau → 2
+
+g = blau → 1
+
+h = g → also 1
+>
+Enum variables behave like integers with restricted symbolic values.
+
+#### 5. Logical expressions with enums
+```
+x = (f > g);
+y = (f > schwarz);
+printf("\n%d %d", x, y);
+```
+
+> Output:
+
+1 0
+
+
+- Explanation:
+
+f > g → 2 > 1 → true → 1
+
+f > schwarz → 2 > 3 → false → 0
+
+Enums can be compared just like integers.
+
+### 6. Type conversion: enum → int
+```
+i = rot;
+j = g;
+printf("\n%d %d", i, j);
+```
+
+> Output:
+
+0 1
+
+
+- Assigning an enum value to an int is implicit and allowed
+
+rot becomes 0, g is 1
+
+### 7. Type conversion: int → enum
+```
+g = 3;
+h = 4;
+printf("\n%hu %hu", g, h);
+```
+
+> Output:
+
+3 4
+
+
+⚠️ Important:
+
+C does not check whether an integer assigned to an enum is valid.
+
+g = 3 → valid (schwarz)
+
+h = 4 → invalid logically, but still stored
+
+This can lead to undefined or unsafe logic, even though it compiles.
+
+### 8. Arithmetic with enums
+```
+g = f - 1;
+h = f + 1;
+printf("\n%hu %hu %hu", f, g, h);
+```
+
+> Output:
+
+2 1 3
+
+>
+f = 2
+
+g = 2 - 1 = 1
+
+h = 2 + 1 = 3
+>
+Enums fully support arithmetic because they are integers underneath.
+
+### 9. Compound assignment
+```
+h = f += g;
+printf("\n%hu %hu %hu", f, g, h);
+```
+> Output:
+
+2 1 3
