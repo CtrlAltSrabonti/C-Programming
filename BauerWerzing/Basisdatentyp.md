@@ -130,15 +130,15 @@ getchar();
   
 ## What enum does (in simple terms)
 
-enum lets you:
+- enum lets you:
 
-Give names to integer values
+- Give names to integer values
 
-Make code more readable
+- Make code more readable
 
-Restrict variables to a small, meaningful set of values
+- Restrict variables to a small, meaningful set of values
 
-Instead of using “magic numbers” like 0, 1, 2, you use names like RED, GREEN, BLUE.
+- Instead of using “magic numbers” like 0, 1, 2, you use names like RED, GREEN, BLUE.
 ```
 enum color { RED, GREEN, BLUE };
 ```
