@@ -47,7 +47,7 @@ while (getchar() != '\n');
 ```
 for (; getchar() != (char)10; );
 ```
-Erklärung:
+**Erklärung:**
 
 getchar() liest Zeichen für Zeichen
 
@@ -99,21 +99,21 @@ Eingabepuffer: leer
 ```
 scanf("%d", &x);
 ```
-Der Benutzer gibt ein:
+**Der Benutzer gibt ein:**
 ```
 123⏎
 
 ```
-Puffer danach:
+**Puffer danach:**
 ```
 '1' '2' '3' '\n'
 ```
-scanf("%d", &x); liest:
+**scanf("%d", &x); liest**
 ```
 '1' '2' '3'
 ```
 👉 '\n' bleibt im Puffer!
-Jetzt kommt:
+**Jetzt kommt:**
 ```
 getchar();
 
@@ -161,7 +161,7 @@ color c = GREEN;
 ```
 Now you don’t need to write enum color every time.
 
-### enum and typedef
+### 1. enum and typedef
 typedef enum { rot, blau, grau, schwarz } farbe;
 
 
@@ -181,7 +181,7 @@ farbe f, g, h;
 
 instead of enum farbe.
 
-Equivalent (commented-out) version:
+**Equivalent (commented-out) version:**
 ```
 enum farbe { rot, blau, grau, schwarz };
 enum farbe f, g, h;
@@ -193,19 +193,19 @@ printf("%u", sizeof(farbe));
 
 > Output:
 
-4
+> 4
 
 On this system, an enum occupies 4 bytes, because it is stored as an int.
 
 This is implementation-dependent, but very common.
 
 ### 3. Printing enum constants
+```
 printf("\n%hu %hu %hu %hu", rot, blau, grau, schwarz);
-
+```
 > Output:
 
-0 1 2 3
-
+> 0 1 2 3
 
 - Enum constants are just integers starting from 0 by default.
 
@@ -221,7 +221,7 @@ printf("\n%hu %hu %hu", f, g, h);
 
 > Output:
 
-2 1 1
+> 2 1 1
 
 >
 f = grau → 2
@@ -230,7 +230,7 @@ g = blau → 1
 
 h = g → also 1
 >
-Enum variables behave like integers with restricted symbolic values.
+**Enum variables behave like integers with restricted symbolic values**
 
 #### 5. Logical expressions with enums
 ```
@@ -241,15 +241,15 @@ printf("\n%d %d", x, y);
 
 > Output:
 
-1 0
+> 1 0
 
 
-- Explanation:
-
+**Explanation:**
+>
 f > g → 2 > 1 → true → 1
 
 f > schwarz → 2 > 3 → false → 0
-
+>
 Enums can be compared just like integers.
 
 ### 6. Type conversion: enum → int
@@ -261,10 +261,9 @@ printf("\n%d %d", i, j);
 
 > Output:
 
-0 1
+> 0 1
 
-
-- Assigning an enum value to an int is implicit and allowed
+**Assigning an enum value to an int is implicit and allowed**
 
 rot becomes 0, g is 1
 
@@ -277,12 +276,11 @@ printf("\n%hu %hu", g, h);
 
 > Output:
 
-3 4
-
+> 3 4
 
 ⚠️ Important:
 
-C does not check whether an integer assigned to an enum is valid.
+**C does not check whether an integer assigned to an enum is valid.**
 
 g = 3 → valid (schwarz)
 
@@ -299,7 +297,7 @@ printf("\n%hu %hu %hu", f, g, h);
 
 > Output:
 
-2 1 3
+> 2 1 3
 
 >
 f = 2
@@ -308,7 +306,7 @@ g = 2 - 1 = 1
 
 h = 2 + 1 = 3
 >
-Enums fully support arithmetic because they are integers underneath.
+**Enums fully support arithmetic because they are integers underneath.**
 
 ### 9. Compound assignment
 ```
@@ -317,5 +315,15 @@ printf("\n%hu %hu %hu", f, g, h);
 ```
 > Output:
 
-2 1 3
->
+> 2 1 3
+### Explicit values
+Explicit values
+
+You can choose the numbers yourself:
+```
+enum error {
+    OK = 0,
+    FILE_NOT_FOUND = 404,
+    PERMISSION_DENIED = 403
+};
+```
