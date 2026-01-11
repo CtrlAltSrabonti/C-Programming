@@ -152,3 +152,11 @@ c = RED;
 - c can logically hold only RED, GREEN, or BLUE
 
 - Internally, c is stored as an int
+With typedef (common and cleaner)
+```
+typedef enum { RED, GREEN, BLUE } color;
+
+color c = GREEN;
+
+```
+Now you don’t need to write enum color every time.
