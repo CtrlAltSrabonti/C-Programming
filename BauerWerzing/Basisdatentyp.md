@@ -393,3 +393,18 @@ int a = 1, b = 2;
 - Das b hier überdeckt das globale b
 
 ➡️ Innerhalb von main bedeutet b jetzt 2, nicht 200
+### Zugriff auf globale Variable d
+```
+printf("\n%i", d);
+```
+- d ist global
+
+- Wird nirgends lokal überdeckt
+### Innerer Anweisungsblock
+```
+{
+  int b = 20, c = 30;
+
+```
+**Hier passiert Folgendes:**
+<img width="1056" height="362" alt="image" src="https://github.com/user-attachments/assets/ab923de0-2e92-4c82-94cd-7a6519fe5850" />
