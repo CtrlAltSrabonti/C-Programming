@@ -369,3 +369,27 @@ int main(void)
 - existieren während der gesamten Programmlaufzeit
 - nach #include
 - vor allen Funktione
+### Funktion btest
+```
+void btest (void)
+{
+  printf("\nbtest: %i", b);
+}
+
+```
+- In btest gibt es keine lokale Variable b
+
+- Daher greift btest() immer auf die globale Variable b = 200 zu
+
+- Egal, von wo aus die Funktion aufgerufen wird
+
+➡️ Lokale Variablen aus main() sind hier nicht sichtbar
+### Lokale Variablen in main
+```
+int a = 1, b = 2;
+```
+- a und b gelten nur innerhalb von main
+
+- Das b hier überdeckt das globale b
+
+➡️ Innerhalb von main bedeutet b jetzt 2, nicht 200
