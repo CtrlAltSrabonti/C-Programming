@@ -329,16 +329,43 @@ enum error {
 ```
 # Globale Variablen
 ```
-int b = 200, d = 4;   /* globale Variable */
+#include <stdlib.h> 
+#include <stdio.h> 
+#include "Diverses.h" 
+int b=200, d=4;        /* globale Variable */ 
+void btest (void) 
+{ 
+  printf("\nbtest: %i",b); 
+}   
+int main(void) 
+{ 
+  int a=1, b=2; 
+  printf("\n%i",a); 
+  printf("\n%i",b); 
+  btest(); 
+/*printf("\n%i",c);    Fehler beim Compilieren! */ 
+  printf("\n%i",d); 
+  { 
+    int b=20, c=30; 
+    printf("\n\n%i",a); 
+    printf("\n%i",b); 
+    btest();  
+    printf("\n%i",c); 
+    printf("\n%i",d); 
+  } 
+  printf("\n\n%i",a); 
+  printf("\n%i",b); 
+/*printf("\n%i",c);    Fehler beim Compilieren! */ 
+  printf("\n%i",d); 
+  printf("\n"); 
+  PAUSE 
+}  
 
 ```
 **Diese Variablen:**
 
 - gelten im gesamten Programm
-
 - sind in allen Funktionen sichtbar, sofern sie nicht überdeckt werden
-
 - existieren während der gesamten Programmlaufzeit
-nach #include
-
-vor allen Funktione
+- nach #include
+- vor allen Funktione
