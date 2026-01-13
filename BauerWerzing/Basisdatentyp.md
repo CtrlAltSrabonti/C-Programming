@@ -327,3 +327,18 @@ enum error {
     PERMISSION_DENIED = 403
 };
 ```
+# Globale Variablen
+```
+int b = 200, d = 4;   /* globale Variable */
+
+```
+**Diese Variablen:**
+
+- gelten im gesamten Programm
+
+- sind in allen Funktionen sichtbar, sofern sie nicht überdeckt werden
+
+- existieren während der gesamten Programmlaufzeit
+nach #include
+
+vor allen Funktione
