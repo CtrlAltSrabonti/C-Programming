@@ -421,4 +421,12 @@ double f1 = 1.5, f2 = 2.5, *ptrf;
 | `int *ii;`      | `ii` is a **pointer to int**      |
 | `double *ptrf;` | `ptrf` is a **pointer to double** |
 | `f1, f2`        | normal double variables           |
+## Assign address to pointer
+```
+ptrf = &f1;
+**Exam explanation:**
+- &f1 → address of f1
 
+- ptrf now points to f1
+
+```
