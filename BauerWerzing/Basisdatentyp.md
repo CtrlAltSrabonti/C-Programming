@@ -424,9 +424,15 @@ double f1 = 1.5, f2 = 2.5, *ptrf;
 ## Assign address to pointer
 ```
 ptrf = &f1;
+```
 **Exam explanation:**
 - &f1 → address of f1
 
 - ptrf now points to f1
+## Print pointer value (address)
+```
+printf("%p\n", ptrf);
 
 ```
+> Output: 
+0022FF68
