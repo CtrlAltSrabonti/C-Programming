@@ -45,3 +45,4 @@ Wir brauchen hier:
 - FOR-Schleifen für Eingabe und Ausgabe
 
 - einfache Anweisungen
+https://chatgpt.com/share/696aaf7e-50dc-8002-9d83-ca7daf4c2026
