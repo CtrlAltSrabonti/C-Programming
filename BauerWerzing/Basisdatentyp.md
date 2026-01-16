@@ -436,3 +436,6 @@ printf("%p\n", ptrf);
 ```
 > Output: 
 0022FF68
+- %p prints an address
+
+- This is the memory address of f1
