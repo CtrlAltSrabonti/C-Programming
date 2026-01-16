@@ -408,3 +408,17 @@ printf("\n%i", d);
 ```
 **Hier passiert Folgendes:**
 <img width="1056" height="362" alt="image" src="https://github.com/user-attachments/assets/ab923de0-2e92-4c82-94cd-7a6519fe5850" />
+# Zeiger
+## Variable declarations
+
+```
+int *ii;
+double f1 = 1.5, f2 = 2.5, *ptrf;
+
+```
+| Declaration     | Meaning                           |
+| --------------- | --------------------------------- |
+| `int *ii;`      | `ii` is a **pointer to int**      |
+| `double *ptrf;` | `ptrf` is a **pointer to double** |
+| `f1, f2`        | normal double variables           |
+
