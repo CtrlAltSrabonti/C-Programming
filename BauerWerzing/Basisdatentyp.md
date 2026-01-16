@@ -439,3 +439,15 @@ printf("%p\n", ptrf);
 - %p prints an address
 
 - This is the memory address of f1
+## Dereferencing
+```
+f2 = *ptrf;
+
+```
+> After assignment:
+f2 = 1.5
+## MOST IMPORTANT POINTER CONCEPT
+| Expression | Meaning                       |
+| ---------- | ----------------------------- |
+| `ptrf`     | address of `f1`               |
+| `*ptrf`    | value at that address → `1.5` |
