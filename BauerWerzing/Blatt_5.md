@@ -108,5 +108,5 @@ for (i = 0; i < anzahl; i++)
 - Controls which array element is being filled
 *Iteration meaning:*
 <img width="819" height="317" alt="image" src="https://github.com/user-attachments/assets/1ff5bc72-46cc-40cf-9ed1-95faa4d9e256" />
-
+### The INNER loop (do–while)
 
