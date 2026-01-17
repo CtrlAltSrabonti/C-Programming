@@ -1,4 +1,71 @@
 # Eindimensionalen Feldern / Array
+```
+/*Ein und Ausgabe einer Folge von 30 Zahlen und Suche nach der kleinsten und der groessten Zahl*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "Diverses.h"
+
+#define MAX_ANZAHL 30  //Feldgröße nur an einer Stelle
+
+int main(void){
+    int i, anzahl, r, zl; // zl = Zählvariable
+    float min, max, folge[30];
+    char weiter;
+    /*Without char weiter Program runs only once.
+    In program is user allowed to process another sequesnce of numbers or stop now?
+
+    */
+    /*Wiederholungsschleife*/
+    /*In einem programmslauf meherere Zahlenfolgen nacheinander eingegeben wird*/
+    do{
+        /*Eingabe der Anzahl von Zahlen*/
+        do{
+            printf("\nWieviele Zahlen sind maximal zu erwarten (maximal %d): ", MAX_ANZAHL);
+            r = scanf("%d", &anzahl); INCLR
+        } while (r < 1 || anzahl > MAX_ANZAHL); // Loop repeats if user inputs invalid number = 0 or number is greater than the allowed maximum
+
+        /*Eingabe der Zahlen*/
+        for(i= 0; i<anzahl; i++) {
+            do{
+                printf("\n%d. zahl?\n", i+1);
+                r= scanf("\n%f", &folge[i]); INCLR
+            }while (r < 1); // Loop repeats if user inputs invalid number
+        }
+
+        /*Ermittlung der kleinsten und der groessten Zahl*/
+        // Initialization
+        min=folge[0];
+        max=folge[0];
+
+        // Vergleich jeweiligen Zahl und update
+        for(i=1; i<anzahl; i=i+1){
+            if (folge[i] <min) min=folge[i];
+            if (folge[i] >max) max=folge[i];
+        }
+        // Ausgabe in umgekehrte Reihenfolge
+        // zl counts how many numbers have been printed
+        for(zl = 0, i= anzahl - 1; i >= 0; i=i-1) {
+            printf("%15f", folge[i]);
+            zl++; // zl increases by 1
+            if (zl%5 == 0)
+                printf("\n");
+
+        }
+
+        printf("\n\nDie kleinste Zahl ist %f",min);
+        printf("\n\nDie groesste Zahl ist %f",max);
+
+        /*Wiederholungsabfrage*/
+        printf("\nSoll noch eine Zahlenfolge untersucht werden? ");
+        scanf("%c",&weiter); INCLR
+
+    } while (weiter == 'j' || weiter == 'J'); // condition is true -> Program repeats, while condition is false -> Program ends
+
+
+}
+
+``
 ## Why it is a one-dimensional array
 - folge is an array of 30 floating-point numbers
 
