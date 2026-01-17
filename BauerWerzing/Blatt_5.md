@@ -100,7 +100,7 @@ for (i = 0; i < anzahl; i++)
     while (r < 1);
 }
 ```
-1. The OUTER loop (for)
+### The OUTER loop (for)
 *Purpose:*
 
 - Runs once per number
