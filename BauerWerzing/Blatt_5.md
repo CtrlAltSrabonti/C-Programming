@@ -67,7 +67,7 @@ int main(void){
 }
 
 
-``
+```
 ## Why it is a one-dimensional array
 - folge is an array of 30 floating-point numbers
 
