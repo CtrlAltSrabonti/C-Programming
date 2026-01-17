@@ -22,3 +22,16 @@ If the user enters:
 abc⏎
 
 ```
+- scanf("%d", &anzahl) fails
+
+- r = 0
+
+- BUT the characters a b c \n remain in the input buffer
+
+> Next loop iteration:
+
+- scanf sees the same a again
+
+- fails again
+
+- ❌ infinite loop
