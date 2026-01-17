@@ -35,3 +35,27 @@ abc⏎
 - fails again
 
 - ❌ infinite loop
+## Case: VALID input
+*User types:*
+```
+12⏎
+```
+*What is actually in the input buffer:*
+```
+'1'  '2'  '\n'
+
+```
+1. scanf runs
+```
+r = scanf("%d", &anzahl);
+
+```
+*What happens:*
+
+- scanf reads '1' and '2'
+
+- Converts them to integer 12
+
+- Stores it in anzahl
+
+- Returns 1 → success
