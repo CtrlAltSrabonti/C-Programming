@@ -185,3 +185,47 @@ while (r < 1);
 - If input was invalid → repeat
 
 - If input was valid → exit inner loop
+### Find the smallest (min) and largest (max) number in the array folge.
+#### Initialization (very important)
+- The first element of the array is taken as a starting reference
+#### Loop through the remaining elements
+- Start at i = 1 because:
+
+folge[0] is already used
+#### Compare each number
+Check for a new minimum
+```
+if (folge[i] < min)
+    min = folge[i];
+
+```
+- If the current number is smaller than the current minimum
+
+- Update min
+#### Check for a new maximum
+```
+if (folge[i] > max)
+    max = folge[i];
+```
+### Die eingegebenen Zahlen sind in umgekehrter Reihenfolge
+- zl counts how many numbers have already been printed.
+##### Initialization
+```
+zl = 0;
+i = anzahl - 1;
+
+```
+- i → array index (goes backwards)
+
+- zl → counts printed numbers
+##### Print a number
+```
+printf("%15f", folge[i]);
+zl++;
+
+```
+##### Line break after every 5 numbers
+```
+if ((zl % 5) == 0)
+    printf("\n");
+```
