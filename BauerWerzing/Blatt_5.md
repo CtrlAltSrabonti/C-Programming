@@ -229,3 +229,8 @@ zl++;
 if ((zl % 5) == 0)
     printf("\n");
 ```
+- after 5 numbers → new line
+
+- after 10 numbers → new line
+
+- after 15 numbers → new line
