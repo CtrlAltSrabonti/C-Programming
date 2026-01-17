@@ -123,3 +123,49 @@ while (r < 1);
 - Ensures the user enters a valid floating-point number
 
 - Repeats the question until scanf succeeds
+### What happens inside the inner loop
+#### Ask for input
+```
+printf("%d. Zahl? ", i + 1);
+```
+##### Why i + 1 is used?
+*What is i?*
+
+In the loop:
+```
+for (i = 0; i < anzahl; i++)
+
+```
+i takes the values:
+```
+0, 1, 2, ...
+
+```
+But humans normally count from 1, not 0.
+So instead of showing:
+```
+0. Zahl?
+
+```
+the program prints:
+```
+i + 1
+
+```
+Which produces:
+```
+1. Zahl?
+2. Zahl?
+3. Zahl?
+
+```
+#### Try to read a float
+```
+r = scanf("%f", &folge[i]);
+
+```
+*scanf returns:*
+
+- 1 → valid float entered
+
+- 0 → invalid input (e.g. letters)
