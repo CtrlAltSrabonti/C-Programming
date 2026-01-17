@@ -80,3 +80,12 @@ r = scanf("%d", &anzahl);
 | `12⏎`    | just `'\n'`        |
 | `abc⏎`   | `'a' 'b' 'c' '\n'` |
 | `12abc⏎` | `'a' 'b' 'c' '\n'` |
+3. Why INCLR is placed right after scanf?
+```
+r = scanf("%d", &anzahl); INCLR
+```
+Logical sequence:
+
+1️⃣ Try to read input
+2️⃣ Check if it worked (r)
+3️⃣ Clean the buffer no matter what
