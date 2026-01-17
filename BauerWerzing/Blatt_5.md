@@ -15,6 +15,7 @@ while (r < 1 || anzahl > MAX_ANZAHL);
 OR
 – the number is greater than the allowed maximum”
 ## Why is INCLR logically needed here?
+
 ### What happens WITHOUT INCLR?
 
 If the user enters:
@@ -59,3 +60,18 @@ r = scanf("%d", &anzahl);
 - Stores it in anzahl
 
 - Returns 1 → success
+2. INCLR runs
+  ```
+  INCLR   →   while (getchar() != '\n');
+
+  ```
+*Execution:*
+
+- getchar() reads '\n'
+
+- Condition fails immediately
+
+- Loop ends
+
+✔ Only one character is removed
+✔ Buffer is now empty
