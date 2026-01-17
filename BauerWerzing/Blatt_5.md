@@ -110,4 +110,16 @@ for (i = 0; i < anzahl; i++)
 <img width="819" height="317" alt="image" src="https://github.com/user-attachments/assets/1ff5bc72-46cc-40cf-9ed1-95faa4d9e256" />
 
 ### The INNER loop (do–while)
+```
+do
+{
+    ...
+}
+while (r < 1);
 
+```
+**Purpose:**
+
+- Ensures the user enters a valid floating-point number
+
+- Repeats the question until scanf succeeds
