@@ -62,8 +62,10 @@ int main(void){
 
     } while (weiter == 'j' || weiter == 'J'); // condition is true -> Program repeats, while condition is false -> Program ends
 
+    return 0;
 
 }
+
 
 ``
 ## Why it is a one-dimensional array
