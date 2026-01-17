@@ -14,4 +14,11 @@ while (r < 1 || anzahl > MAX_ANZAHL);
 - the input was not a valid integer
 OR
 – the number is greater than the allowed maximum”
-  
+## Why is INCLR logically needed here?
+### What happens WITHOUT INCLR?
+
+If the user enters:
+```
+abc⏎
+
+```
