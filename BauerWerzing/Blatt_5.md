@@ -120,7 +120,7 @@ while (r < 1);
 ```
 **Purpose:**
 
-- *Ensures the user enters a valid floating-point number*
+- Ensures the user enters a valid floating-point number
 
 - Repeats the question until scanf succeeds
 ### What happens inside the inner loop
