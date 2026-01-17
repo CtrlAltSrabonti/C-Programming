@@ -89,3 +89,23 @@ Logical sequence:
 1️⃣ Try to read input
 2️⃣ Check if it worked (r)
 3️⃣ Clean the buffer no matter what
+```
+for (i = 0; i < anzahl; i++)
+{
+    do
+    {
+        printf("%d. Zahl? ", i + 1); 
+        r = scanf("%f", &folge[i]); INCLR
+    }
+    while (r < 1);
+}
+```
+1. The OUTER loop (for)
+*Purpose:*
+
+- Runs once per number
+
+- Controls which array element is being filled
+*Iteration meaning:*
+
+
