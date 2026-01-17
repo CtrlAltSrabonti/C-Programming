@@ -224,6 +224,15 @@ printf("%15f", folge[i]);
 zl++;
 
 ```
+- Prints folge[i]
+
+- %15f means:
+
+- print a float
+
+- right-aligned
+
+- width = 15 characters
 ##### Line break after every 5 numbers
 ```
 if ((zl % 5) == 0)
