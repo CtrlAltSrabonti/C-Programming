@@ -169,3 +169,19 @@ r = scanf("%f", &folge[i]);
 - 1 → valid float entered
 
 - 0 → invalid input (e.g. letters)
+#### Clear input buffer
+```
+INCLR
+
+```
+- Removes leftover characters
+
+- Prevents infinite loops
+#### Check loop condition
+```
+while (r < 1);
+
+```
+- If input was invalid → repeat
+
+- If input was valid → exit inner loop
