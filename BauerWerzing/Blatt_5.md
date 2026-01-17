@@ -243,3 +243,8 @@ if ((zl % 5) == 0)
 - after 10 numbers → new line
 
 - after 15 numbers → new line
+### Wiederholungsabfrage
+```
+scanf("%c", &weiter);
+```
+- “Read exactly one character from the input buffer and store it in char weiter.”
