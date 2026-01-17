@@ -107,11 +107,6 @@ for (i = 0; i < anzahl; i++)
 
 - Controls which array element is being filled
 *Iteration meaning:*
-| i        | What happens                 |
-| -------- | ---------------------------- |
-| 0        | read 1st number → `folge[0]` |
-| 1        | read 2nd number → `folge[1]` |
-| …        | …                            |
-| anzahl−1 | read last number             |
+<img width="819" height="317" alt="image" src="https://github.com/user-attachments/assets/1ff5bc72-46cc-40cf-9ed1-95faa4d9e256" />
 
 
