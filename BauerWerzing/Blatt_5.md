@@ -233,6 +233,8 @@ zl++;
 - right-aligned
 
 - width = 15 characters
+- <img width="819" height="317" alt="image" src="https://github.com/user-attachments/assets/0da44b28-7b39-4a83-9728-ceb46b881d3b" />
+
 ##### Line break after every 5 numbers
 ```
 if ((zl % 5) == 0)
