@@ -75,3 +75,8 @@ r = scanf("%d", &anzahl);
 
 ✔ Only one character is removed
 ✔ Buffer is now empty
+| Input    | What INCLR removes |
+| -------- | ------------------ |
+| `12⏎`    | just `'\n'`        |
+| `abc⏎`   | `'a' 'b' 'c' '\n'` |
+| `12abc⏎` | `'a' 'b' 'c' '\n'` |
