@@ -116,5 +116,10 @@ while (zahlen <1 || zahlen > MAX_ANZAHL) {
 - zahlen < 1 → invalid (no numbers)
 
 - zahlen > 20 → exceeds maximum
-
+  
+## Declare the 2D array
     
+```
+int a[MAX_ANZAHL][MAX_ANZAHL];
+
+```
