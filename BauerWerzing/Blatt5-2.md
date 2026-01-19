@@ -180,3 +180,10 @@ for (j = 0; j < zahlen - i; j++)
 ```
 a[i][j] = a[i -1][j] + a[i -1][j+1];
 ```
+- This means:
+
+- Take two neighboring numbers from the row above
+
+- Add them
+
+- Store result in the current row
