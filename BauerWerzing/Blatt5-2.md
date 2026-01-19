@@ -151,7 +151,7 @@ a[0][0], a[0][1], ..., a[0][zahlen-1]
 *Important rule*
 👉 The first row is NOT calculated
 👉 It comes directly from the user
-# Build the number triangle (core logic)
+## Build the number triangle (core logic)
 ```
 for(i = 1; i < zahlen; i++)
 ```
@@ -168,3 +168,12 @@ a[1]    11    20    18
 a[2]     ?
 a[3]     ?
 ```
+### Inner loop (columns)
+```
+for (j = 0; j < zahlen - i; j++)
+
+```
+- Each new row is one element shorter
+
+- Prevents accessing invalid memory
+
