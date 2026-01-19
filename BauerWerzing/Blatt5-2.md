@@ -3,7 +3,7 @@
  3. Build a number triangle where
  each element = sum of two neighbors from the row above
  4. Print the triangle*/
-``
+```
 #include <stdio.h>
 
 int main(void) {
