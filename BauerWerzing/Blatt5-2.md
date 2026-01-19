@@ -106,3 +106,15 @@ scanf("%d",&zahlen);
 - Asks user how many numbers they want
 
 - Stores result in zahlen
+## Input validation (VERY IMPORTANT)
+```
+while (zahlen <1 || zahlen > MAX_ANZAHL) {
+
+```
+- Loop repeats if:
+
+- zahlen < 1 → invalid (no numbers)
+
+- zahlen > 20 → exceeds maximum
+
+    
