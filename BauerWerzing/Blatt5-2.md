@@ -94,4 +94,6 @@ const int MAX_ANZAHL = 20;
 ```
 int zahlen;
 ```
+- Stores how many numbers the user wants to enter
 
+- Determines triangle size
