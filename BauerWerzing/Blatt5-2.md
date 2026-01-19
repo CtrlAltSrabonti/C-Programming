@@ -137,3 +137,14 @@ for (j = 0; j < zahlen; j++)
     scanf("%d", &a[0][j]);
 }
 ```
+- Explanation:
+
+- row = 0 → first row
+
+- j moves across columns
+
+User input goes into:
+```
+a[0][0], a[0][1], ..., a[0][zahlen-1]
+
+```
