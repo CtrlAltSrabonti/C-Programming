@@ -176,4 +176,7 @@ for (j = 0; j < zahlen - i; j++)
 - Each new row is one element shorter
 
 - Prevents accessing invalid memory
-
+### Triangle formula
+```
+a[i][j] = a[i -1][j] + a[i -1][j+1];
+```
