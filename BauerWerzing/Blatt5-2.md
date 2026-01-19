@@ -103,3 +103,6 @@ printf("Geben Sie die Anzahl von Zahlen (max 20) an \n");
 scanf("%d",&zahlen);
 
 ```
+- Asks user how many numbers they want
+
+- Stores result in zahlen
