@@ -161,3 +161,9 @@ for(i = 1; i < zahlen; i++)
 
 - Stops before exceeding array
 
+row\col   0     1     2     3
+--------------------------------
+a[0]     3     8    12     6
+a[1]    11    20    18
+a[2]     ?
+a[3]     ?
