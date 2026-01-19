@@ -97,3 +97,9 @@ int zahlen;
 - Stores how many numbers the user wants to enter
 
 - Determines triangle size
+## Ask user for number of inputs
+```
+printf("Geben Sie die Anzahl von Zahlen (max 20) an \n");
+scanf("%d",&zahlen);
+
+```
