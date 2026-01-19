@@ -173,6 +173,16 @@ a[3]     ?
 for (j = 0; j < zahlen - i; j++)
 
 ```
+```
+Row i     numbers to print/calculate
+-----------------------------------
+0         zahlen
+1         zahlen - 1
+2         zahlen - 2
+3         zahlen - 3
+...
+
+```
 - Each new row is one element shorter
 
 - Prevents accessing invalid memory
