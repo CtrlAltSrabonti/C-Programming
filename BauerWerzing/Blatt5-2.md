@@ -130,6 +130,7 @@ int a[MAX_ANZAHL][MAX_ANZAHL];
 - Enough space for any triangle up to size 20
 
 - We will not use all cells, only the triangular part
+## Read the first row (user input)
 ```
 for (j = 0; j < zahlen; j++)
 {
