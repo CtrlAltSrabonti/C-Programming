@@ -84,8 +84,8 @@ const int MAX_ANZAHL = 20;
 
 - Used to:
 
-limit input
+- limit input
 
-define array size
+- define array size
 
-const → value cannot change
+- const → value cannot change
