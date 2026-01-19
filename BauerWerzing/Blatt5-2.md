@@ -69,8 +69,9 @@ int main(void) {
 ```
 
 ## Variable declarations
+``
 int i = 0, j = 0;
-
+``
 - i → row index (Zeile)
 
 - j → column index (Spalte)
@@ -89,3 +90,8 @@ const int MAX_ANZAHL = 20;
 - define array size
 
 - const → value cannot change
+  
+```
+int zahlen;
+```
+
