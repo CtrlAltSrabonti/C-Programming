@@ -123,3 +123,10 @@ while (zahlen <1 || zahlen > MAX_ANZAHL) {
 int a[MAX_ANZAHL][MAX_ANZAHL];
 
 ```
+- Maximum 20 rows
+
+- Maximum 20 columns
+
+- Enough space for any triangle up to size 20
+
+- We will not use all cells, only the triangular part
