@@ -143,8 +143,11 @@ for (j = 0; j < zahlen; j++)
 
 - j moves across columns
 
-User input goes into:
+- User input goes into:
 ```
 a[0][0], a[0][1], ..., a[0][zahlen-1]
 
 ```
+*Important rule*
+👉 The first row is NOT calculated
+👉 It comes directly from the user
