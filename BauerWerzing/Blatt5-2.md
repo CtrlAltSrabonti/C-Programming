@@ -155,5 +155,9 @@ a[0][0], a[0][1], ..., a[0][zahlen-1]
 ```
 for(i = 1; i < zahlen; i++)
 ```
+- Start at row 1
 
+- Row 0 already exists (input)
+
+- Stops before exceeding array
 
