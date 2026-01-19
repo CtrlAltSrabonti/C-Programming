@@ -71,9 +71,21 @@ int main(void) {
 ## Variable declarations
 int i = 0, j = 0;
 
-
 - i → row index (Zeile)
 
 - j → column index (Spalte)
 
 - Initialized to 0 (good practice)
+```
+const int MAX_ANZAHL = 20;
+
+```
+- Maximum allowed number of input values
+
+- Used to:
+
+limit input
+
+define array size
+
+const → value cannot change
