@@ -1,9 +1,10 @@
+```
 /*1. Ask the user how many numbers (<=20)
  2.Read those numbers into the first row of a 2D array
  3. Build a number triangle where
  each element = sum of two neighbors from the row above
  4. Print the triangle*/
-```
+
 #include <stdio.h>
 
 int main(void) {
@@ -71,8 +72,8 @@ int main(void) {
 int i = 0, j = 0;
 
 
-i → row index (Zeile)
+- i → row index (Zeile)
 
-j → column index (Spalte)
+- j → column index (Spalte)
 
-Initialized to 0 (good practice)
+- Initialized to 0 (good practice)
