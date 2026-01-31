@@ -90,7 +90,7 @@ printf("\n");
 printf("\nAnzahl der Messwerte %i\n",anzahl);
 printf("\nMittelwert der Werte\n %g",mw); //removes trailing zeros
 printf("\nMinimumwert der Werte\n %g",min);
-printf("\nMaximumwert der Werte\n %g",max); /**/
+printf("\nMaximumwert der Werte\n %g",max); 
 
 printf("\n");
 
