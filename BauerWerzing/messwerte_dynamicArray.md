@@ -1,11 +1,22 @@
 ## Algorithm:
 
-1. Allocate small array
+This program:
 
-2. Read values in a loop
+- reads an unknown number of measurement values
 
-3. If array is full → reallocate bigger array
+- stores them in a dynamically growing array
 
-4. Stop on end-of-input
+- enlarges the array automatically when needed
 
-5. Process array
+- calculates the Kennwerte:
+
+1. minimum
+
+2. maximum
+
+3. arithmetic mean
+
+- outputs the results and all entered values
+
+👉 Difference to the first task:
+The user never enters the number of values in advance.
