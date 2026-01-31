@@ -2,7 +2,12 @@
 - The user must enter the number of values first
 
 - The array size is fixed before input
-
+## Algorithm
+1. Read anzahl
+2. Allocate array once
+3. Read exactly anzahl values
+4. Process array
+5. 
 Example implementation:
 ```
 int anzahl;
