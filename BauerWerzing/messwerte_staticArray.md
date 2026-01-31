@@ -7,7 +7,7 @@
 2. Allocate array once
 3. Read exactly anzahl values
 4. Process array
-5. 
+   
 Example implementation:
 ```
 int anzahl;
