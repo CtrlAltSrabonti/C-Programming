@@ -1,4 +1,4 @@
-## Algorith:
+## Algorithm:
 
 1. Allocate small array
 
