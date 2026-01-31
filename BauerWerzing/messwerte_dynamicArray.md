@@ -18,5 +18,5 @@ This program:
 
 - outputs the results and all entered values
 
-👉 Difference to the first task:
-The user never enters the number of values in advance.
+👉 Difference to the static array
+**The user never enters the number of values in advance.**
