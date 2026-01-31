@@ -79,12 +79,13 @@ min = werte[0];
 max = werte[0];
 /*Loop runs "anzahl" times*/
 for(i =1; i< anzahl; i= i+1){
-    if (wert[i] < min) min = wert[i];/*if element of the current index is smaller than the baseline */
-    if (wert[i]> max) max = wert[i];
+    if (werte[i] < min) min = werte[i];/*if element of the current index is smaller than the baseline */
+    if (werte[i]> max) max = werte[i];
 
 }
 
-//*Ausgabe der Werte*/
+//*Ausgabe der Kennwerte*/
+/*Kennwerte sind charakteristische Zahlen, die eine Zahlenfolge zusammenfassen und beschreiben, z. B. Minimum, Maximum oder Mittelwert, Median, Standardabweichung.*/
 printf("\n");
 printf("\nAnzahl der Messwerte %i\n",anzahl);
 printf("\nMittelwert der Werte\n %g",mw); //removes trailing zeros
