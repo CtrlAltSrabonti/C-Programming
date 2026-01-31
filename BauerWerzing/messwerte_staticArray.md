@@ -1,4 +1,9 @@
+# Static Array
+The user must enter the number of values first
 
+The array size is fixed before input
+
+Example implementation:
 - Der arithmetische Mittelwert sowie das Minimum und Maximum  einer vom Benutzer einzugebenden Folge von Messwerten soll berechnet und ausgegeben werden
 - Die Messwerte (Messwerte = 4, if 2.5, 3.0, 1.5, 4.0) sollen in einem Array gespeichert werden
 - Die Anzahl der Zahlen in der Zahlenfolge soll gleich zu Beginn erfragt werden, ist also bei der Eingabe der Zahlenfolge (10, 8, 6, 4 bekannt)
