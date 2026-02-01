@@ -1,5 +1,5 @@
 <img width="590" height="851" alt="image" src="https://github.com/user-attachments/assets/5bd15e79-5043-4639-82a4-35c7f47c1872" />
-``
+```
 /*Fibonacci Zahlen mit Arrays*/
 /*
  - Eine nicht-negative Ganzzahl n einliest
