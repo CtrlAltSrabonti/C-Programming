@@ -1,6 +1,10 @@
 # pass by reference
 - When an array is passed to a function in C, the function receives a pointer to the first element, so changes inside the function directly modify the array in main().
 - Arrays behave like pass by reference
+**Final Intuition of pass by reference**
+NO pointers  → changes disappear
+WITH pointers → changes persist
+
 <img width="769" height="751" alt="image" src="https://github.com/user-attachments/assets/b5048075-39f8-4824-9cd1-e53d31196b00" />
 
 <img width="795" height="625" alt="image" src="https://github.com/user-attachments/assets/0dd20d84-09b8-4464-aee7-8912f4a2c7a7" />
