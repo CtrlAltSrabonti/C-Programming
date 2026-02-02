@@ -1,5 +1,8 @@
 # pass by reference
-In pass by reference, the function receives the address of a variable, so changes inside the function directly modify the original variable.
+- When an array is passed to a function in C, the function receives a pointer to the first element, so changes inside the function directly modify the array in main().
+- Arrays behave like pass by reference
+<img width="795" height="625" alt="image" src="https://github.com/user-attachments/assets/0dd20d84-09b8-4464-aee7-8912f4a2c7a7" />
+
 ## Program
 ```
 #include <stdio.h>
@@ -80,3 +83,6 @@ while (1) {
 }
 
 ```
+## vergleiche_bruch()
+<img width="782" height="407" alt="image" src="https://github.com/user-attachments/assets/d5649ec2-7977-45cf-89dc-67898c3b17e9" />
+
