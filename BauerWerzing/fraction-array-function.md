@@ -1,3 +1,6 @@
+# pass by reference
+In pass by reference, the function receives the address of a variable, so changes inside the function directly modify the original variable.
+## Program
 ```
 #include <stdio.h>
 #include <stdlib.h>
