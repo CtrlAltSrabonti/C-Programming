@@ -6,6 +6,7 @@
 /*Berechnung des ggT (größster gemeinsamer Teiler) zweier ganzer Zahlen (a und b)
  - Pass by value: The function receives copies of the arguments, not the original variables
  - Pass by value: The original values in main() stay unchanged
+- Iterative approach without Function calling
 
  */
 unsigned long long ggt(unsigned long long a, unsigned long long b) { // unsigned long long (large integer range)
