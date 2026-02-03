@@ -1,11 +1,11 @@
-/*Ausgabe eines Bruches: Vorzeichen, Zaehler, Nenner*/
+# Ausgabe eines Bruches: Vorzeichen, Zaehler, Nenner*/
 - char *t : Because strings in C are arrays of characters and are passed to functions as pointers. Text to print before the fraction
 - short vz: sign print separately
 - unsigned int z: numerator (>=0)
 - unsigned int n: denominator (>0)
 
-*/
- # Program
+
+ ## Program
 ```
 void bruchausgabe (char *t, short vz, unsigned int z, unsigned int n)  {
 
