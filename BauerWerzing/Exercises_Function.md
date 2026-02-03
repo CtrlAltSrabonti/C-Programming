@@ -10,3 +10,11 @@
 
 ### 3. Variant 1: Call by value + return value ✅ (BEST PRACTICE)
 <img width="817" height="448" alt="image" src="https://github.com/user-attachments/assets/3ca2280d-633f-495b-b3bd-bb647afb00f2" />
+
+### 4. Variant 2: Call by reference (output parameter)
+- returns void because
+- the function writes into a memory location
+- that memory belongs to the caller
+- therefore no function return value is needed
+- That’s why the return type is void.
+<img width="823" height="429" alt="image" src="https://github.com/user-attachments/assets/71f71658-6a6b-412c-b579-ecad2501c897" />
