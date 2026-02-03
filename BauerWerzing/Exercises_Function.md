@@ -9,3 +9,4 @@
 
 
 ### 3. Variant 1: Call by value + return value ✅ (BEST PRACTICE)
+<img width="817" height="448" alt="image" src="https://github.com/user-attachments/assets/3ca2280d-633f-495b-b3bd-bb647afb00f2" />
