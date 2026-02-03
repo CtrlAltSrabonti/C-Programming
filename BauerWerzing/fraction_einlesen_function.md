@@ -7,4 +7,4 @@ void brucheinlesen(short *s, unsigned int *z, unsigned int *n)
 ```
 #### Why pointers?
 
-👉 Because the function must change values outside the function.
+👉 Because the function must change values outside the function. Pointers → function modifies caller’s variables
