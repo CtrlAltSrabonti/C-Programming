@@ -6,3 +6,6 @@
 
 ### 2. Apply the strategy to YOUR QUESTION
 <img width="735" height="208" alt="image" src="https://github.com/user-attachments/assets/ad978a67-797b-4a6f-90c3-524b8b09bc90" />
+
+
+### 3. Variant 1: Call by value + return value ✅ (BEST PRACTICE)
