@@ -18,3 +18,5 @@
 - therefore no function return value is needed
 - That’s why the return type is void.
 <img width="823" height="429" alt="image" src="https://github.com/user-attachments/assets/71f71658-6a6b-412c-b579-ecad2501c897" />
+
+### 5. 5️⃣ Main program (table generation)
