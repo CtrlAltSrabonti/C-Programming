@@ -6,6 +6,8 @@
 
 ## Call by value
 
+- *Variables in function definition is local*
+
 <img width="1304" height="670" alt="image" src="https://github.com/user-attachments/assets/5b04d5ac-5d51-499c-8d7e-87c072d170a5" />
 
 ## Call by reference
