@@ -10,4 +10,5 @@
 
 ## Call by reference
 - Pointer: Pointers are those variables which can store address of those variables
-<img width="1304" height="670" alt="image" src="https://github.com/user-attachments/assets/37e8c62b-7c13-4520-be97-1a3bb16fed4c" />
+  <img width="1304" height="670" alt="image" src="https://github.com/user-attachments/assets/d79c08bf-bf9d-423f-a786-b3a0d63a278a" />
+
