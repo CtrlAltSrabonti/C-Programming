@@ -19,3 +19,64 @@
 ### The exercise teaches
 
 <img width="639" height="261" alt="image" src="https://github.com/user-attachments/assets/97be3362-8269-4674-894d-b70eeaca0f08" />
+
+## Program (Call by value)
+
+```
+/*Call by value*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "Diverses.h"
+
+//Funktiontion definieren
+
+double sinhyp (double x) {
+
+    return (exp(x) - exp(x))/2;
+}
+
+// Testen die Funktion in einem Hauptprogramm
+int main(void) {
+    double a, b, h, x;
+    int r, i = 0;
+
+    // Tabellenanfang vom Benutzer erfragen
+
+    do {
+
+        printf("\nGeben Sie Tabellenanfang ein: ");
+        r= scanf("%lf",&a); INCLR /*NCLR dient zum Leeren des Eingabepuffers bei fehlerhafter Eingabe und darf nur nach einem fehlgeschlagenen scanf verwendet werden.*/
+    } while (r<1); /*Repeat until the user enters a valid number, suppose user enters text, then invalid*/
+
+    // Tabellenende vom Benutzer erfragen
+    do {
+
+        printf("\nGeben Sie Tabellenende (b > a) ein: ");
+       r = scanf("%lf",&b); INCLR
+    } while (r<1 || b < a); /*Repeat until the user enters a valid number and the end value is smaller than the start value*/
+
+    // Schrittweite (Stepsize) vom Benutzer erfragen
+    do {
+
+        printf("\nGeben Sie Schrittweite (> 0) ein: ");
+        r = scanf("%lf",&h); INCLR
+    } while (r<1 || h <= 0); /*Repeat until the user enters a valid number and stepsize must be positive*/
+
+    // How table generates in math
+    // How loops generate table
+    /*x = a + i*h
+     - i = 0, a= 10, h= 2 ---> a =10 + 0*2 = 10
+     */
+    do {
+        x = a + i*h;
+        printf("\n%g %g",x,sinhyp(x)); /*%g removes the trailing zeros*/
+        i = i +1;
+    } while (x < b -h/2); /*a = 0, b = 2, h = 0.5, 0 + 1*0.5 --> 0.5 < 2 means x clearla smaller than b and stops before the wall*/
+
+    printf("\n");
+
+    return 0;
+}
+```
+> *NOTE* To compile a program with math.h library use gcc -o sinus_hyperbolicus sinus_hyperbolicus.c -lm
