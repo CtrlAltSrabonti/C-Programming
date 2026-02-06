@@ -221,7 +221,7 @@ int stellen(int z)
   do {
     z = z / 10;
     anz++;
-  } while (z != 0);
+  } while (z != 0); /*Loop termination*/
 
   return anz;
 }
