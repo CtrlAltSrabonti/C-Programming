@@ -61,7 +61,7 @@ int main(void)
         printf("\nGib eine nicht negative Ganzzahl als Exponent ein: \n");
         r = scanf("%d",&exp); INCLR
     }
-    while (r <1 || exp <0); /*Fpr invalid input loop reüeats*/
+    while (r <1 || exp <0); /*For invalid input loop reüeats*/
 
     /*Ausgabe*/
     printf("\nPotenz iterativ = %lf\n",potenz_iterativ(basis, exp)); /*placeholder %lf, because we define return type of function as double*/
