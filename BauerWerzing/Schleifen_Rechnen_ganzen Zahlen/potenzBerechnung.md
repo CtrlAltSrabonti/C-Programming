@@ -6,7 +6,7 @@
 ## Fußgesteuerte Schleife (do....while)
 
 ```
-/*Berechnung der n-te Potenz einer ganzen Zahl*/
+/*Berechnung der n-ten Potenz einer ganzen Zahl*/
 #include <stdlib.h>
 #include <stdio.h>
 
