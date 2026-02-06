@@ -116,3 +116,50 @@ int main(void)
 
 
 ````
+
+# Program
+## Kopfgesteuerte Schleife (for...)
+
+```
+/*Berechnung der n-ten Potenz einer ganzen Zahl mit einer Zaehlschleife*/
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int basis, exp, ergebnis, i;
+
+    // Eingabe auffordern vom Benutzer
+    printf("\nGeben Sie Basis und Exponenten ein: \n");
+    printf("Basis: \n"); scanf("%d", &basis);
+    printf("Exponent: \n"); scanf("%d",&exp);
+
+    /*Bei der Eingabe muss sicherstellen, dass exp >= 0 sein*/
+    /*Input validation*/
+
+    while (exp <0)
+    {
+        printf("\nExponenten darf nicht negativ sein!\nExponent: ");
+        scanf("%d",&exp);
+    }
+
+    /*Ablauf der Berechnung*/
+
+    if(exp == 0) ergebnis = 1; /*Ueberpruefung des Exponenten auf 0*/
+        else
+        {
+             for(i = 1, ergebnis = 1; i <= exp; i= i+1)
+                 ergebnis = ergebnis * basis;
+        }
+
+    /*Ausgabe*/
+
+    printf("\n%d^%d = %d\n\n", basis, exp, ergebnis);
+
+    return 0;
+
+
+}
+
+```
