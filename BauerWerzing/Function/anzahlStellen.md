@@ -200,4 +200,70 @@ while (weiter!='j' && weiter!='J' && weiter!='n' && weiter!='N');
 while (weiter == 'j' || weiter == 'J');
 
 ````
+## Programm
+
+```
+/* Aufgabe 4-3
+   Bestimmung der Stellenanzahl einer ganzen Zahl */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include "Diverses.h"
+
+int stellen(int z)
+{
+  int anz=0; /*Count = 0*/
+  /*Input normalization*/
+  if (z<0)
+    z=-z
+
+  /*Correctly handles z == 0*/
+  do {
+    z = z / 10;
+    anz++;
+  } while (z != 0);
+
+  return anz;
+}
+
+int main(void)
+{
+  short anz; /*short range. On most sytems int has max 10 digits*/
+  int r, zahl; /*input: zahl*/
+  char weiter;
+
+  /* Wiederholungsschleife */
+  do
+  {
+    /* Eingabe der Zahl */
+    do
+    {
+	  printf("\nGeben Sie eine ganze Zahl ein: "); 
+	  r=scanf("%d",&zahl); INCLR
+    }
+    while (r<1);
+    /* Ausgabe des Ergebnisses */
+    /*Ausgabe mit Funktionsaufruf stellen(zahl)
+     - input, the result
+
+     */
+	printf("\nDie Zahl %d hat %d Stelle(n).", zahl, stellen(zahl)); //
+
+    /* Abfrage, ob eine Wiederholung gewuenscht ist */
+    printf("\n");
+    do
+    {
+      printf("\nSoll eine weitere Zahl untersucht werden (j/n) ? ");
+      scanf("%c",&weiter); INCLR
+    }
+    while (weiter!='J' && weiter!='j' && weiter!='N' && weiter!='n');
+  }
+  while (weiter=='j' || weiter=='J');
+  PAUSE
+}
+
+
+
+
+```
 
