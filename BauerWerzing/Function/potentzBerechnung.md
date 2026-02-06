@@ -4,3 +4,7 @@
 
 > "....mit einer beliebigen Kommazahl a als Basis und einem nicht negativen, ganzzahligen Exponenten n...."
 - return type double ---> mehr Genauigkeit
+- 
+### Requirements for function build
+- Input: double a, int n
+- Output: double potenz
