@@ -1,3 +1,72 @@
+# General algorithm to memorize
+## 1. Count digits
+### Code inside loop
+````
+z = z / 10;
+anz++;
+
+````
+*Algorithmic explanation*
+
+- Dividing by 10 removes one digit
+
+- Each removal means one digit existed
+
+- We count how many times this is possible until z == 0
+
+- Example: z = 472
+<img width="975" height="362" alt="image" src="https://github.com/user-attachments/assets/6e23cd6d-49df-413d-a16b-f6206fd4a897" />
+
+## 2, Sum of digits
+### Code inside loop
+```
+sum += z % 10;
+z /= 10;
+
+```
+*Algorithmic explanation*
+
+- z % 10 extracts the last digit
+
+- This digit is added to sum
+
+- Then the digit is removed by dividing by 10
+- Example: z = 472
+  
+<img width="975" height="362" alt="image" src="https://github.com/user-attachments/assets/a1723f36-c9d8-440a-9cc3-62c4bc9577b4" />
+
+## 3. Reverse number
+
+### Code inside loop
+```
+rev = rev * 10 + z % 10;
+z /= 10;
+```
+*Algorithmic explanation*
+- This does two things at once:
+rev * 10
+→ shifts existing digits left
+- '+'z % 10
+→ appends the last digit of z
+
+## 4. Product of digits
+
+### Code inside loop
+
+```
+prod *= z % 10;
+z /= 10;
+
+```
+*Algorithmic explanation*
+
+- Multiply current product with the last digit
+
+- Remove the digit
+
+- Repeat until no digits remain
+
+
 ## What is asked in the question
 
 - You are given a whole number (int) from the user and must:
@@ -131,3 +200,4 @@ while (weiter!='j' && weiter!='J' && weiter!='n' && weiter!='N');
 while (weiter == 'j' || weiter == 'J');
 
 ````
+
