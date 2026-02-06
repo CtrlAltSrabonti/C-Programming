@@ -52,7 +52,7 @@ int main(void)
         }
 
         /*Ausgabe*/
-        printf("\n%d°%d = %d\n\n",basis, exp, ergebnis);
+        printf("\n%d%d = %d\n\n",basis, exp, ergebnis);
 
         return 0;
 
@@ -108,7 +108,7 @@ int main(void)
     }
 
     /*Ausgabe*/
-    printf("\n%d°%d = %d\n\n",basis, exp, ergebnis);
+    printf("\n%d%d = %d\n\n",basis, exp, ergebnis);
 
     return 0;
 
