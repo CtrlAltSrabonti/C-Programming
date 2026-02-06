@@ -80,3 +80,63 @@ int main(void) {
 }
 ```
 > *NOTE* To compile a program with math.h library use gcc -o sinus_hyperbolicus sinus_hyperbolicus.c -lm
+
+## Program (Call by reference
+
+```
+/*Call by refernce*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "Diverses.h"
+
+// Funktion definiren
+
+void sinhyper(double x, double *y) /*parameter x = input value, y = address where result is stored*/
+{
+    *y = (exp(x) - exp(x)) / 2; /**y means Go to the address stored in y and write the result there*/
+}
+
+// Testen die Funktion mit einem hauptprogramm
+int main(void) {
+
+    double a, b, h, x, y;
+    int i,r;
+
+    // Tabellenanfang User erfragen
+
+    do{
+          printf("\nGeben Sie Tabellenanfang ein: ");
+          r = scanf("%lf",&a); INCLR
+    } while (r <1);
+
+    // Tabellenende User erfragen
+
+     do{
+          printf("\nGeben Sie Tabellenende (b >a) ein: ");
+          r = scanf("%lf",&b); INCLR
+    } while (r <1 || b < a);
+
+    // Schrittweite User erfragen
+
+     do{
+          printf("\nGeben Sie Schrittweite (>0) ein: ");
+          r = scanf("%lf",&h); INCLR
+    } while (r <1 || h<= 0); /*Stepsize must be positive*/
+
+    // How loops generate table
+
+     do{
+         /*In left side values of x and in right side multiple values of x is computed*/
+         x =  a + i*h;
+         sinhyper (x, &y); /*x =  copy of the value y = Go to the address stored in y and write the result there. So, main's variable y gets the result*/
+         printf("\n%f %f", x,y);
+    } while (x < b- h/2);
+
+    printf("\n");
+
+    return 0;
+
+}
+
+````
