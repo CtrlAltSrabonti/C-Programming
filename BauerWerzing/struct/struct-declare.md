@@ -12,6 +12,8 @@
 
 ## Pointer to struct variable
 
+- Accessing members of variable 'a' by using a pointer
+  
 <img width="1212" height="612" alt="image" src="https://github.com/user-attachments/assets/1a05209e-48a5-4c77-ab58-98586b622be1" />
 
 ````
