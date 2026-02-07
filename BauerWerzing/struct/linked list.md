@@ -50,3 +50,21 @@
 <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/5d990fb0-6bb9-44bb-be92-f238af6a10ab" />
 
 ## Creating the third node of the single linked list.
+
+- With the help of Head part, we can access the whole list
+-  1. What does the Head -> Link return?
+      - Answer: Head represents the pointer means the first block of the list. By using head pointer, we can access the link part of the first node.
+
+  <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/3ad515df-cf73-4441-a80c-5b1b944bb4d3" />
+
+  <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/f1342362-a303-4913-991d-56aa10580ec4" />
+
+##### Summary: With the help of Head pointer, we can reach at any node of the list
+
+#### Disclaimer: Creating several pointers to create new node always is wastage of memory. So, we re-use 'Current' node part to access nodes. because by using 'Head' pointer, we can access to the whole list
+
+<img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/792d5543-3ab6-402b-ad82-576a40dc55ea" />
+
+<img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/8c8a909f-7206-491c-80ba-a45a674ecb08" />
+
+
