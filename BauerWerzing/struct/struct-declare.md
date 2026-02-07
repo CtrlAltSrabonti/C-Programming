@@ -20,3 +20,22 @@
 -  ptr->x replaced by (*ptr).x replaced by (*&a).x. Now * and & get cancelled out. So  we left with 'a' only.
 - printf("%d %d", a.x, a.y) means we are trying to get access the x member of variable a. Therefore a.x will get replaced by 0
 ````
+
+<img width="923" height="491" alt="image" src="https://github.com/user-attachments/assets/c7ff6743-c6e5-4504-93d9-85453e0aac56" />
+
+## Structure padding sizeof()
+
+<img width="1235" height="678" alt="image" src="https://github.com/user-attachments/assets/1892cea7-edf9-4a8c-8919-a3704096a39f" />
+
+## Importance of type casting in structure
+
+- Without type casting pointer will point to the whole structure, NOT the address of the first member of structure
+  
+#### Example : Pointer to structure
+
+- Previously q was pointing to the whole structure. But after type casting to '(char*)', q will point to the address of the first member of the structure
+
+<img width="1235" height="678" alt="image" src="https://github.com/user-attachments/assets/d16a97c6-5a04-447a-bf31-fca6b50e4528" />
+
+<img width="1235" height="678" alt="image" src="https://github.com/user-attachments/assets/7d7d4c00-f7a9-4363-9cfb-8bae1f094277" />
+
