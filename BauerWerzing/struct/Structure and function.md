@@ -459,3 +459,14 @@ Because x is the first member of this structure.
 And y is the second member of this structure.
 > ------------------
 <img width="1223" height="681" alt="image" src="https://github.com/user-attachments/assets/0f60271e-a377-47e3-83fc-721d2baed045" />
+
+# Self-referential structures
+<img width="855" height="510" alt="image" src="https://github.com/user-attachments/assets/1b1f5f22-a477-495e-a0c3-adbce5f12ad6" />
+
+<img width="1223" height="681" alt="image" src="https://github.com/user-attachments/assets/18838092-7fc3-4066-b469-0354b81026fd" />
+
+<img width="1223" height="681" alt="image" src="https://github.com/user-attachments/assets/b58811bb-a93a-4a88-b6a7-12ce3200e4c9" />
+
+- Why self-referential structures is important
+
+- We will see the usefullness of self-referential structures in linked-list
