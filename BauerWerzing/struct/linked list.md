@@ -31,7 +31,9 @@
      - Answer: *To access node, we need a pointer to the node*
 
 - 2. malloc is called to allocate memory for 'struct' node / malloc help to create node
-     
+    -  *why I am calling this malloc function. malloc function is used to allocate memory at heap. Why we want to allocate memory at heap?*
+    -  Answer: Heap memory allocated with malloc does not disappear when a function ends, so returning its pointer is safe, unlike stack memory which is automatically destroyed after the function finishes.
+      
 - 3. Address will be stored in the head pointer
  
   ````
