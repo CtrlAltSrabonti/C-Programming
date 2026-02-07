@@ -41,5 +41,11 @@
   ````
 
 <img width="1207" height="654" alt="image" src="https://github.com/user-attachments/assets/770f38ad-24d7-4874-866d-7d61b98885cb" />
+
 - 4. With the help of Arrow operator, we can access data using head pointer
 <img width="887" height="482" alt="image" src="https://github.com/user-attachments/assets/792ee2b9-0a86-4267-b06a-18ec735087a8" />
+
+##  Creating the first two nodes of the single linked list / Creating a Single Linked List 
+
+<img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/5d990fb0-6bb9-44bb-be92-f238af6a10ab" />
+
