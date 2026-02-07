@@ -10,5 +10,9 @@
 
 <img width="855" height="491" alt="image" src="https://github.com/user-attachments/assets/59b781c1-251d-4080-9dab-48ed84ebd59e" />
 
+## Pointer to struct variable
 
+<img width="1212" height="612" alt="image" src="https://github.com/user-attachments/assets/1a05209e-48a5-4c77-ab58-98586b622be1" />
 
+> ptr->x replaced by (*ptr).x replaced by (*&a).x. Now * and & get cancelled out. So  we left with 'a' only.
+> printf("%d %d", a.x, a.y) means we are trying to get access the x member of variable a. Therefore a.x will get replaced by 0
