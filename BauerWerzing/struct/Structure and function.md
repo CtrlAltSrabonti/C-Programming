@@ -329,9 +329,133 @@ deallocate the memory.
 So, the output of this program is obviously
 two eight six and14.
 > --------------------
+<img width="1223" height="681" alt="image" src="https://github.com/user-attachments/assets/fa140aaa-eaa6-4b9a-b95c-0eaef9af645c" />
+
 
 # Returning structure variable from a function
 Returning a structure variable from a function is similar to returning a variable from a function
 > Note: Since we are passing in edit() parameter of struct point, so we are returning 'struct point'
 
 <img width="998" height="529" alt="image" src="https://github.com/user-attachments/assets/c56e4b48-4701-4f0a-931f-b08ffcd40317" />
+
+
+# Passing Array of Structures as Argument
+
+<img width="930" height="538" alt="image" src="https://github.com/user-attachments/assets/1ee71a06-9167-4aa4-bcfe-aa6eea5c7237" />
+
+-----------------------
+> how to pass array of structures as argument.
+So without any delay, let's get started.
+Here, you can see that I have declared one structure
+struct abc which consists of two members a and b.
+Data type of a is int, which means it's an integer variable.
+And data type of b is char,
+which means this is a character variable.
+Now, here have declared one array,
+which consists of two elements and
+the data type of these two elements is struct abc.
+Okay. So, this means that I have declared an array of structures, right?
+To be precise, this is an array of two structures.
+And here you can see these two structures.
+Okay, you can think of them as variables of type struct ABC.
+Okay, these two are variables of type struct abc.
+Obviously, they are combined together, forming up an array.
+So here, this variable -- I'm imagining this as a variable.
+This variable is of type struct abc,
+which means that it can access the members of this struct abc.
+And here, with the help of this variable,
+I'm initializing these members.
+That means one has been given to a
+and capital A, this letter has been given to this variable b.
+Now here, I have another variable
+which does the job of initializing these members as well.
+Two has been given to a and
+capital B has been given to this variable b.
+Right?
+Now, here is one important point I would like to emphasize on.
+Compiler will allocate contiguous block of memory
+for the data members of the structure.
+It should be well noted that, compiler will allocate
+contiguous block of memory, okay.
+It is not the case, it is allocating memory anywhere it wants.
+It's basically allocating contiguous block of memory
+for the data members of the structure.
+If you have any confusion regarding how the
+compiler will allocate memory for struct abc,
+you should watch our lectures of C Programming.
+There, everything will be clear. Okay.
+Now, here I am considering one simple example.
+Here in this main function, I have declared
+an array of type struct point.
+Let me tell you, that this is an array
+which consists of two elements and each element
+is having a type struct point.
+And here you can see, the initialization has been done.
+This is the struct point declaration, which consists
+of two members x and y. Both are having the same type
+that is int, which means that these are the two integer variables.
+And here I'm initializing them one by one.
+This is the first variable and this is the second variable.
+Think of them as variables only, if you have any confusion.
+Now, this first variable is initializing
+these members with these values.
+And this variable is initializing these members with these values, right?
+After that, I'm simply calling this print function.
+And here I'm passing this array -- complete array.
+When you are passing the name of the array,
+actually are passing the address of that array, right?
+And here I am receiving this array over here, right?
+This is the print function definition,
+which is receiving the array.
+Obviously, the type of this array must be struct point.
+It should be well noted.
+Inside this print function, we have this for loop,
+which runs from zero to one.
+As this is i less than two, so loop runs from zero to one,
+which means this loop runs two times.
+And with the help of printf function,
+we are basically printing the values of x and y
+of each of these variables.
+When i is zero, we are basically calling our first variable
+and we are accessing the members of this variable.
+That is, here this is arr[0].x
+which means we are accessing this value, that is one.
+And arr[0].y which means, we accessing this value two.
+Similarly, when this becomes one,
+then this is arr[1].x which means
+we are accessing this value three.
+And when this is arr[1].y we are accessing this value four.
+That's it.
+In this way, we would be able to print all the values on the screen.
+And the output must be one two three four.
+This is how this program works. It's very simple.
+Here, this array is of no difference let me tell you.
+The only difference is that this array
+consists of two elements of type struct point
+which we haven't seen before, right?
+We have seen array of integers, characters,
+floats, but we haven't seen something like this before
+and there is no difference, let me tell you.
+You have created an array of two structures in this case.
+That is the only difference.
+It is just like declaring an array
+of two integers. As simple as that.
+You can easily call the members of this array.
+If you use arr[0], it means that
+you are calling the first member of this array.
+That means the first structure.
+When this is arr[1],
+you are calling the second structure. As simple as that.
+Treat them as individual members, okay.
+And then, you can go inside and access the members.
+As it is indicated over here,
+when I put here, dot x, it means that
+I'm calling the first member of the first structure.
+Obviously, i must be zero in this case.
+arr[0] means that you are calling the first structure
+and dot x means you are accessing the first member of the first structure,
+which means this member, right?
+Because x is the first member of this structure.
+And y is the second member of this structure.
+> ------------------
+<img width="1223" height="681" alt="image" src="https://github.com/user-attachments/assets/0f60271e-a377-47e3-83fc-721d2baed045" />
