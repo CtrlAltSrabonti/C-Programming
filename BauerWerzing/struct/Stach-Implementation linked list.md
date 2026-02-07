@@ -11,3 +11,5 @@
 - 2. stack underflow / Stack is empty
      
 <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/4060e40c-c322-4977-82ce-34940ded54b3" />
+
+## Represent stack with the help of simply linked list
