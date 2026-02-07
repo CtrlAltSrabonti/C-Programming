@@ -1,3 +1,9 @@
+#### Golden Rule (WRITE THIS):
+
+. → structure variable
+
+-> → pointer to structure
+
 <img width="1097" height="605" alt="image" src="https://github.com/user-attachments/assets/6bfcf158-507f-4a6e-8927-65f175ba9c24" />
 
 <img width="1097" height="605" alt="image" src="https://github.com/user-attachments/assets/9186cf9a-0159-41a3-ab1c-abc5bce832ec" />
