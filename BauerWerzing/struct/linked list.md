@@ -21,3 +21,23 @@
 <img width="1207" height="654" alt="image" src="https://github.com/user-attachments/assets/7792d6fc-18bf-4237-a12d-c13458fd8923" />
 
 >> IMPORTANT: Linked list is scattered allocation of memory
+
+## How node is created in a linked list?
+#### Please note that node is a self referential structure
+
+<img width="1207" height="654" alt="image" src="https://github.com/user-attachments/assets/b14dc167-bab2-4834-a12d-b4cb52589675" />
+
+- 1. Declare '*Head' pointer which  points to the first block of the list. *WHY needed pointer??*
+     - Answer: *To access node, we need a pointer to the node*
+
+- 2. malloc is called to allocate memory for 'struct' node / malloc help to create node
+     
+- 3. Address will be stored in the head pointer
+ 
+  ````
+  head = (struct node *)malloc(sizeof(struct node));
+  ````
+
+<img width="1207" height="654" alt="image" src="https://github.com/user-attachments/assets/770f38ad-24d7-4874-866d-7d61b98885cb" />
+- 4. With the help of Arrow operator, we can access data using head pointer
+<img width="887" height="482" alt="image" src="https://github.com/user-attachments/assets/792ee2b9-0a86-4267-b06a-18ec735087a8" />
