@@ -23,7 +23,7 @@
 >> IMPORTANT: Linked list is scattered allocation of memory
 
 ## How node is created in a linked list?
-#### Please note that node is a self referential structure
+#### *Please note that node is a self referential structure / pointer to structure node*
 
 <img width="1207" height="654" alt="image" src="https://github.com/user-attachments/assets/b14dc167-bab2-4834-a12d-b4cb52589675" />
 
@@ -49,3 +49,4 @@
 
 <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/5d990fb0-6bb9-44bb-be92-f238af6a10ab" />
 
+## Creating the third node of the single linked list.
