@@ -1,3 +1,14 @@
+# Aufgabe 3 (30 Punkte)
+<img width="985" height="732" alt="image" src="https://github.com/user-attachments/assets/94eeeb08-7d18-4b4c-aa08-6b6a9e14b600" />
+
+<img width="981" height="707" alt="image" src="https://github.com/user-attachments/assets/8453cfc2-540c-4d0d-8c86-44c46a03abd0" />
+<img width="979" height="291" alt="image" src="https://github.com/user-attachments/assets/d0ee7594-db06-4284-927c-f4626d2b2782" />
+
+
+
+
+
+
 # Working with struct, functions, user input, and basic geometry (rectangle points calculation).
 
 <img width="1150" height="483" alt="image" src="https://github.com/user-attachments/assets/da222d1e-7e24-491f-912c-375e1c1cc48c" />
