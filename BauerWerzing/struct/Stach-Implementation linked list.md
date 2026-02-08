@@ -12,7 +12,7 @@
      
 <img width="1244" height="696" alt="image" src="https://github.com/user-attachments/assets/4060e40c-c322-4977-82ce-34940ded54b3" />
 
-## Represent stack with the help of simply linked list
+## Represent stack with the help of simply linked list push () function
 ### 1. Structure of the node
 - We need a '*top' pointer to implement linked list
 - WICHTIG: Declare the top pointer globally in the node
@@ -42,3 +42,37 @@
 
 ### 3. Complete function
 <img width="1156" height="627" alt="image" src="https://github.com/user-attachments/assets/97b2eb9d-4125-4ba2-a30d-a742338f464a" />
+
+## Represent stack with the help of simply linked list pop () function
+### Procedure
+
+<img width="1156" height="627" alt="image" src="https://github.com/user-attachments/assets/7d1e4f9d-320f-49d2-af16-1566283df13f" />
+
+- pop () will not only delete the element from the top of the stack, but return the first element of the stack back to the caller. So return type will NOT 'void'
+
+```
+int pop(){}
+
+```
+
+<img width="551" height="579" alt="image" src="https://github.com/user-attachments/assets/9a6f7baa-259e-43f8-bef9-5548aa7b854c" />
+
+#### Pictogram
+1. <img width="539" height="191" alt="image" src="https://github.com/user-attachments/assets/5804bfee-af63-4c14-83ed-41cd86ea901b" />
+
+2. <img width="694" height="132" alt="image" src="https://github.com/user-attachments/assets/37c183be-c74d-4697-92f0-fb053d28649a" />
+
+3.<img width="694" height="203" alt="image" src="https://github.com/user-attachments/assets/713482da-36c4-4b37-b13b-dc023069503e" />
+
+4. <img width="689" height="201" alt="image" src="https://github.com/user-attachments/assets/1001cfd9-3272-446d-bf00-3caffd60d821" />
+
+5. <img width="723" height="211" alt="image" src="https://github.com/user-attachments/assets/b5ecfbc5-4902-4771-aae7-732177aa8b41" />
+
+6. <img width="848" height="247" alt="image" src="https://github.com/user-attachments/assets/be6b9def-ffda-455b-8e05-50bbb2c4228d" />
+
+
+
+
+
+
+
