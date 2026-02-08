@@ -70,8 +70,15 @@ int pop(){}
 
 6. <img width="848" height="247" alt="image" src="https://github.com/user-attachments/assets/be6b9def-ffda-455b-8e05-50bbb2c4228d" />
 
+## Represent stack with the help of simply linked list isEmpty() function
 
+- top will return NULL, when the linked list is empty
 
+  <img width="976" height="480" alt="image" src="https://github.com/user-attachments/assets/9845a1fa-d844-4aa3-acfa-22e411a8627f" />
+
+<img width="1194" height="638" alt="image" src="https://github.com/user-attachments/assets/516f4615-2fcf-42ad-aea6-e80c883fe035" />
+
+<img width="1194" height="638" alt="image" src="https://github.com/user-attachments/assets/04a4430a-a6d4-4a4e-9fa9-9f0c1895447f" />
 
 
 
