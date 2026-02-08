@@ -35,6 +35,122 @@
 
 <img width="944" height="295" alt="image" src="https://github.com/user-attachments/assets/47072c3a-922d-4b78-9bd8-e56a8bde8373" />
 
+## Program
 
+```
+/*LIFO Prinzip (Stapel)*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "Diverses.h"
+
+// struct definieren
+struct rechteck {
+    double x_0, y_0;
+    double a, b;
+};
+
+// Schreiben eine Funktion
+
+void print_rechteck (struct rechteck *arg)
+{
+    /*local variables*/
+    double x1, y1, x2, y2, x3, y3;
+
+
+    /*Calculation using given formula*/
+
+    x1 = arg->x_0 + arg->a;
+    y1 = arg->y_0;
+
+    x2 = arg->x_0 + arg->a;
+    y2 = arg->y_0 + arg->b;
+
+    x3 = arg->x_0;
+    y3 = arg->y_0 + arg->b;
+
+    /*Ausgabe wie die Loesungsbeispiel*/
+
+    printf("P0: (%lf, %lf)\n", arg->x_0, arg->y_0); /*arg is pointer. So we access each member of struct using pointer*/
+    printf("P1: (%lf, %lf)\n", x1, y1);
+    printf("P2: (%lf, %lf)\n", x2, y2);
+    printf("P2: (%lf, %lf)\n", x3, y3);
+
+    printf("a: %lf, b: %lf\n", arg->a, arg->b);
+
+
+}
+
+// Testen in einem Hauptprogramm
+
+int main(void)
+{
+    struct rechteck rec; // struct rechteck itself is a data type
+    int r;
+    double x0, y0, a, b;
+
+    /*Eingabe: Benutzer auffordern*/
+
+    do
+    {
+    printf("\nwie lautet x_0 ??\n");
+    r = scanf("%lf",&x0); INCLR
+    }
+    while (r < 1);
+
+    do
+    {
+    printf("\nwie lautet y_0 ??\n");
+    r = scanf("%lf",&y0); INCLR
+    }
+    while (r < 1);
+
+    do
+    {
+    printf("\nwie lautet a ??\n");
+    r = scanf("%lf",&a); INCLR
+    }
+    while(r < 1 || a <= 0);
+
+
+    do
+    {
+    printf("\nwie lautet b ??\n");
+    r = scanf("%lf",&b); INCLR
+    }
+    while(r < 1 || b <= 0);
+
+    /*Seitenlaenge Ueberpruefen*/
+
+    if (a <= 0 || b <= 0)
+    {
+        printf("\nFehler!Seitenlaenge muessen groesser als 0 sein.");
+        return 1;
+
+    }
+    else /*Eingelesene Werte der Strukturvariable zuweisen*/
+    {
+       /*- r is a variable of struct rechteck type
+        - using dot operator for non-pointer struct
+        */
+        rec.x_0 = x0;
+        rec.y_0 = y0;
+
+        rec.a = a;
+        rec.b = b;
+
+    }
+
+    /*Ausgabe: Funktion aufrufen*/
+    print_rechteck(&rec); /*Since one function parameter passed, so one argument*/
+
+    return 0;
+
+
+}
+
+
+
+```
 
 
