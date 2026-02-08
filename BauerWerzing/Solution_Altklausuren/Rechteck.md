@@ -38,7 +38,7 @@
 ## Program
 
 ```
-/*LIFO Prinzip (Stapel)*/
+/*Rechteck mit struct*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -145,11 +145,7 @@ int main(void)
     print_rechteck(&rec); /*Since one function parameter passed, so one argument*/
 
     return 0;
-
-
 }
-
-
 
 ```
 
