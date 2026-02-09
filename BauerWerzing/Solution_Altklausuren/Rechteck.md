@@ -1,5 +1,5 @@
 # Aufgabe 3 (30 Punkte)
-## Passing structure to function
+## Passing the structure member as an argument
 ### Pass by reference due to struct
 <img width="985" height="732" alt="image" src="https://github.com/user-attachments/assets/94eeeb08-7d18-4b4c-aa08-6b6a9e14b600" />
 
