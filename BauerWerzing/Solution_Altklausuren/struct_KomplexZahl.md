@@ -1,3 +1,5 @@
+# Passing structure to function
+
 <img width="1003" height="414" alt="image" src="https://github.com/user-attachments/assets/49c07023-583e-42af-a777-02d8a2d44fb0" />
 
 <img width="1006" height="487" alt="image" src="https://github.com/user-attachments/assets/efdc69ff-f889-4eab-9787-6f2148159d19" />
