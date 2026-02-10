@@ -1,3 +1,7 @@
+<img width="1000" height="507" alt="image" src="https://github.com/user-attachments/assets/c9ae5eed-29de-41e7-8295-433367d046b8" />
+
+
+
 ````
 #include <stdlib.h>
 #include <stdio.h>
